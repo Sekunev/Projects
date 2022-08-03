@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC_Sözleşme</title>
+    <style>
+        #sözleşme{
+            background-color: rgb(177, 179, 165);
+            color: black;
+            display: block;
+            width: fit-content;
+            margin-bottom: 5px;
+            padding: 5px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        #SK{
+            resize: none;
+            width: 50%;
+            height: auto;
+        }
+        #yas{
+            width: 30px;
+        }
+        .KişBil{
+
+            display:block;
+            width: 250px;
+            float: left;
+            
+        }
+        .DBil{
+            content: 1px;
+            position: absolute;
+            left: 200px;
+        }
+        .divboşluk{
+            margin: 5px ;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 ><center>ABC Tasarım Programı Kurulum ve Satış Sözleşmesi:)</center> </h1>
+    
+    <form action="result.html">
+        <div class="divboşluk">
+            <fieldset>
+                <legend>Sözleşme Onay</legend>
+                <input type="radio" name="isim" id="Sonay";" required>
+                <label for="Sonay">Aşağıdaki bilgilerin doğruluğunu kabul ediyorum ve sözleşmesini onaylıyorum.</label>
+                <!-- Kutucuğun şeklini nasıl değiştriyoruz. Ayrıca tıklamayınca seçeneklerden birini seçin diyor bunu nasıl engelleriz. -->
+                <br><br>
+                <input type="submit" value="Formu Kaydet">
+                <input type="reset" value="Formu Temizle">
+                
+            </fieldset>
+        </div>
+        <div class="divboşluk">
+            <fieldset>
+                <legend>Kişisel Bilgiler</legend>
+                <label for="GuvID" class="KişBil">Form Güvenlik ID</label>
+                <input type="text" name="Güvenlik ID" id="GuvID" placeholder="#12345"><br>
+                <label for="ad" class="KişBil">Ad</label>
+                <input type="text" name="Sözleşme sahibi" id="ad"><br>
+                <label for="Sad" class="KişBil">Soyad</label>
+                <input type="text" name="Sözleşme sahibi Soyadı" id="Sad"><br>
+                <label for="yas" class="KişBil">Yaş</label>
+                <input type="number" name="Yaşı" id="yas"><br>
+                <label for="email" class="KişBil">email</label>
+                <input type="email" name="email adresi" id="email"><br>
+                <label for="file" class="KişBil">Fotoğraf Ekle</label>
+                <input type="file" name="Fotoğrafı" id="file">
+            </fieldset>
+
+            
+        </div>
+        <div class="divboşluk">
+            <fieldset><legend>Diğer Bilgiler</legend>
+                <p><dd>Buradaki alanlar mesleki deneyimi kapsar</dd> </p>
+                <label for="SGT" class="KişBil">Sektöre Giriş Tarihi</label>
+                <input type="date" name="Sektöre Giriş Tarihi" id="SGT"><br><br>
+                <label for="SD" class="KişBil">Sektör Deneyimi</label><br>
+                
+                <dd><label for="1.5" class="KişBil">1-5 yıl</label><input type="radio" name="Sektör Deneyimi" id="1.5"></dd>
+                <dd> <input type="radio" name="Sektör Deneyimi" id="6-10">
+                <label for="6-10" class="KişBil">6-10 yıl</label><br></dd>
+                <dd><input type="radio" name="Sektör Deneyimi" id="11-15">
+                <label for="11-15" class="KişBil">11-15 yıl</label><br></dd>
+                <dd><input type="radio" name="Sektör Deneyimi" id="15">
+                <label for="15" class="KişBil">15 yıl ve üzeri</label><br></dd><br>
+               
+                <label for="diller" class="KişBil">Programlama Dilleri</label>
+                <select name="Bildiği Programlama Dilleri" id="diller" size="4">
+                    <option value="C#">C#</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Java">Java</option>
+                    <option value="Javascript">Javascript</option>
+                    <option value="Python">Python</option>
+                </select>
+            </fieldset>
+        </div>
+        <div class="divboşluk">
+            <fieldset><legend>Sözleşme Kopyası</legend>
+            <textarea name="" id="SK" cols="30" rows="5">Intersecting Codes grubunda bulunan kursiyerlerin kurs süresince uyum içinde ve keyifle çalışmalarını sağlamak, grupça çıkılan yolda başarıya hep birlikte ulaşmak için ortak bir amaca hizmet etmeyi ilke haline getirmeyi sağlamaktır.</textarea><br><br>
+            <a href="sözleşme.txt" id="sözleşme" download="">Sözleşmeyi indir</a>
+            </fieldset>
+        </div>
+        <div class="divboşluk">
+            <fieldset><legend>Mail Listesi</legend>
+                <label for="MLK1">Mail listesine katılmak <b>istiyorum</b> </label>
+                <input type="radio" name="Mail listesine katılma durumu" id="MLK1" value="istiyor" checked><br>
+                <label for="MLK2">Mail listesine katılmak <b>istemiyorum</b> </label>
+                <input type="radio" name="Mail listesine katılma durumu" id="MLK2" value="istemiyor">
+
+            </fieldset>
+        </div>
+    </form>
+    
+
+    
+
+
+    
+</body>
+</html>
