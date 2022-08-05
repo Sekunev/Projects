@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocakbaşı restaurant survey form</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 75px;
+            background-color: rgb(218, 218, 205);
+            padding: 5px;            
+            font-size: 1rem;
+            font-weight: 200;
+            line-height: 1;
+            display: block;
+            margin: 3px;
+        } 
+        header{
+            font-size: 25px;
+        }
+        div{
+            line-height: 2;
+            padding: 1px 2px;
+        }
+        h1{
+            font-size: 75px;
+            font-weight: lighter;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h4{
+            font-size: 20px;
+            font-weight: lighter;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+        input{
+            line-height: 1.5rem;
+        }
+        button{
+            border: none;
+        }
+        select{
+            height: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ocakbaşı Restaurant Survey Form</h1>
+    </header>
+    <form action="#">
+        <main>
+            <div>
+                <h4>Thank you for taking the time to help us improve the platform</h4>
+                <label for="name" >Name</label><br>
+                <input type="text" name="Name" id="name" placeholder="Enter Your name" required><br>
+                <label for="Sname">Surname</label><br>
+                <input type="text" name="SurName" id="Sname" placeholder="Enter your Surname" required><br>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="user@mail.com" required>
+            </div>
+            <div>
+                <h4>How did you hear about our restaurant?</h4>
+                <select name="current role" id="asd">
+                    <option disabled selected value="" id="option_title">please choose</option>
+                    <option value="from my friend">From my friend</option>
+                    <option value="from social media">From social media</option>
+                    <option value="from brochures">From brochures</option>
+                    <option value="Employee advice">Employee advice</option>
+                </select>
+            </div>
+            <div>
+                <h4>Would you recommend Ocakbaşı Restaurant to a friend?</h4>
+                <input type="radio" name="recommend" id="Yes">
+                <label for="Yes">Definitely, Yes</label><br>
+                <input type="radio" name="recommend" id="Maybe">
+                <label for="Maybe">Maybe</label><br>
+                <input type="radio" name="recommend" id="Not sure">
+                <label for="Not sure">Not sure</label><br>
+                <input type="radio" name="recommend" id="No">
+                <label for="No">Definitely, No</label>
+            </div>
+            <div>
+                <h4>What is your favorite feature of our restaurant?</h4>
+                <select name="current role" id="">
+                    <option disabled selected value id="option_title">please choose</option>
+                    <option value="the food is amazing">the food is amazing</option>
+                    <option value="employee interest and involvement">employee interest and involvement</option>
+                    <option value="to be hygienic">to be hygienic</option>
+                    <option value="I don't have a favorite feature">I don't have a favorite feature</option>
+                </select>
+            </div>
+            <div>
+                <h4>What would you like to see improved?</h4>
+    
+    
+                    <input type="checkbox" name="attention and interest" id="att" value="attention and interest ">
+                    <label for="att">Empowering the attention and interest of the employees</label><br>
+                    <input type="checkbox" name="hygiene" id="hyg" value="hygiene ">
+                    <label for="hyg">Paying attention to hygiene rules</label><br>
+                    <input type="checkbox" name="presentation" id="pre" value="presentation ">
+                    <label for="pre">Improving the presentation of food</label><br>
+                    <input type="checkbox" name="Increasing" id="Inc" value="Increasing">
+                    <label for="Inc">Increasing the variety of food</label>
+    
+            </div>
+            <div>
+                <h4>If you have any comments or suggestions, please write them below.</h4>
+    
+                    <textarea name="" id="" cols="20" rows="5" placeholder="Thanks for your comments..."></textarea>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Clear</button>
+
+            </div>
+        </main>
+    </form>
+    
+</body>
+</html>
