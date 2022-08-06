@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Netflix_icon.svg/1024px-Netflix_icon.svg.png" type="image/x-icon">
+    <title>Netflik Surwey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <main id="title">
+            <header id="description">
+                <h1>NET<span>FLIX</span></h1>
+        <p>
+            Thank you for signing uo at Netflix. Tell us more about your self
+        </p>
+
+            </header>
+            <form action="#" id="survey-form">
+                <div class="box">
+                    <label for="name">Name</label><br>
+                    <input type="text" name="Name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="box">
+                    <label for="age">Age</label><br>
+                    <input type="text" name="Age" id="age" placeholder="Age" pattern="[0-100]">
+                </div>
+                <div class="box">
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="box">
+                    <label for="CT">Content Type</label><br>
+                    <select name="Content Type" id="CT">
+                        <option value="Series">Series</option>
+                        <option value="Netfix Orjinal">Netfix Orjinal</option>
+                        <option value="TV shows">TV shows</option>
+                        <option value="Movies">Movies</option>
+                        <option value="Documentaries">Documentaries</option>
+                    </select>
+                </div>
+                <div class="box1">
+                    <label>Movie Type</label><br>
+                    <label><input type="checkbox" name="Comedy" />Comedy</label><br>
+                    <label><input type="checkbox" name="Action" />Action</label><br>
+                    <label><input type="checkbox" name="Romance" />Romance</label>
+
+                </div>
+                <div class="box1">
+                    <label >Gender</label><br>
+                    <label><input type="radio" name="Gender" />Male</label><br>
+                    <label><input type="radio" name="Gender" />Female</label><br>
+                    <label><input type="radio" name="Gender" />Other</label>
+                </div>
+                <div class="box1">
+                    <label id="FB" >Feed Back</label><br>
+                    <textarea name="Feed Back" id="FB" cols="25" rows="5" maxlength="100"  placeholder="Any Comment"></textarea>
+                </div class="box2">
+                <div class="box3">
+                    <button type="submit">Submit</button>
+                </div>
+                
+                    
+
+            </form>
+
+        </main>
+
+    </div>
+</body>
+</html>

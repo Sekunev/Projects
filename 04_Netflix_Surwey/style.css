@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+/* Proje başlangıcında tarayıcı defaultlarını sıfırlamak istediğimiz değerleri tüm projeye bu şekilde uygularız. */
+/* box-sizing: border-box; margin, padding border'a vereceğimiz değerler ile tag'ın yer aldığı yerin dışına taşmaları engellenmesi için. */
+
+body{
+    background-image: url("./background_image.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    /* background eklediğimizde arkaplan fotoğrafının tek olmasını tekrar etmemesini sağlıyor. */
+    background-position: center;
+    /* fotoğrafının konumunu merkeze alarak tamamen kaplamasını sağlar. */
+    background-attachment: fixed;
+    /* Arkaplanın sayfanın geri kalanıyla birlikte kaydırılıp kaydırılamayacağını veya sabitlenerek görüntünmeyeceğini belirler. */
+    background-size: cover;
+    /* arkapılanın boyutunu px veya auto şeklinde belirler. */
+    margin: auto;
+
+
+}
+#container{
+    background-color: rgba(0, 0, 0, 0.349);
+    margin: auto;
+
+
+
+}
+#title{
+    margin: 0 auto;
+    max-width: 600px;
+    /* içerik genişliğini belirli bir aralıkla sınırlamasına izin verir. */
+    padding: 30px 0;
+    position: relative;
+    /* içerik genişliğini belirli bir aralıkla sınırlamasına izin verir. */
+    width: 100%;
+    z-index: 1;
+    /* Konumlandırılmış bir kutu için, 'z-index' özelliği, kutunun mevcut yığın bağlamındaki yığın düzeyini ve kutunun yerel bir yığın bağlamı oluşturup oluşturmadığını belirtir. */
+    /* border: 2px solid red; */
+
+}
+#description{
+    text-align: center;
+    font-family: 'Bowlby One SC', cursive;
+    margin: auto;
+}
+p{
+    font-family: 'Sorts Mill Goudy', serif;
+}
+span{
+    color: red;
+}
+#survey-form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    background-color: rgba(0, 0, 0, 0.432);
+    width: 300px;
+    margin: auto;
+    padding: 20px 30px ;
+
+
+}
+.box{
+    line-height: 2;
+    /* satır yüksekliği belirler.  */
+}
+.box1{
+    padding-top: 10px;
+    line-height: 1.5;
+}
+
+button{
+    background-color: red;
+    border-radius: 9px;
+    color: white;
+    width: 100px;
+    text-align: center;
+    border: none;
+    padding: 5px;
+    margin: auto;
+    
+}
+.box input, select{
+    width: 100% !important;
+    height: 25px;    
+
+}
+.box1 textarea{
+    width: 100%;
+    height: 100px;
+    resize: none;
+    /* metin kutusunun yeniden boyutlanıp boyutlanmayacacağını tanımlar. None değer virliğinde kullanıcı boyutlandıramaz. HTML dosyasında belirtilen sımırlar içerisinde kalır.*/
+}
+.box3{
+    margin: auto;
+    text-align: center;
+}
