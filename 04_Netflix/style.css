@@ -20,14 +20,11 @@ body{
     /* arkapılanın boyutunu px veya auto şeklinde belirler. */
     margin: auto;
 
-
 }
 #container{
 
     margin: auto;
     padding: 10px;
-
-
 
 }
 #title{
@@ -49,8 +46,15 @@ body{
     font-family: 'Bowlby One SC', cursive;
     margin: auto;
 }
+@font-face {
+    font-family: sekunev;
+    src: url(./fonts/Inspiration-Regular.ttf);
+}
+/* Harici bir font'u indirdikten sonra font-face ile import edip, isimlendirip projemizde aşağıdaki gibi kullanabiliriz. */
+
 p{
     font-family: 'Sorts Mill Goudy', serif;
+    /* font-family: sekunev; */
 }
 span{
     color: red;
@@ -60,18 +64,21 @@ span{
     font-size: small;
     background-color: rgba(0, 0, 0, 0.432);
     width: 300px;
-    margin: auto;
+    margin: 19px auto;
     padding: 20px 30px ;
+    height: auto;
 
 
 }
 .box{
     line-height: 2;
     /* satır yüksekliği belirler.  */
+    padding-bottom: 5px;
 }
 .box1{
     padding-top: 10px;
     line-height: 1.5;
+    padding-bottom: 5px;
 }
 
 button{
@@ -100,3 +107,5 @@ button{
     margin: auto;
     text-align: center;
 }
+
+
