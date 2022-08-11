@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 2px solid blue; */
+}
+#div1{
+    border: 2px solid blue;
+    position: relative;
+    height: 250px;
+    width: 500px;
+
+}
+img{
+    width: 100px;
+    margin: 50px 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+#main{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    text-align: justify;
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header h1{
+    margin-bottom:5px ;
+    font-size: 26px;
+}
