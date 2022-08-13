@@ -1,0 +1,1 @@
+Bu çalışmamda CSS Float ve Clear özellikleri özelinde bir çalışma yapılmıştır.
