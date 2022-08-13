@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(136, 136, 136);
+}
+a{
+    text-decoration: none;
+}
+.conteiner{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.navbar{
+    position: relative;
+    /* border: 2px solid red; */
+    font-size: 20px;
+
+
+}
+.left{
+    position: relative;
+    
+}
+.about {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    display: inline;
+}
+.store {
+    position: absolute;
+    top: 10px;
+    left: 95px;
+    display: inline;
+
+}
+
+.right{
+    position: relative;
+    right: 10px;
+
+
+}
+.rightleft{
+    position: absolute;
+    top: 10px;
+    right: 130px;
+    display: inline;
+}
+.gmail{
+    position: absolute;
+    top: 10px;
+    right: 180px;
+}
+.ımages{
+    position: absolute;
+    top: 10px;
+    right: 90px;
+}
+
+.rightright{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    display: inline;
+}
+.menu img{
+    position: absolute;
+    top: 10px;
+    right: 90px;
+    width: 40px;
+    height: 40px;
+
+
+}
+.singin button{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 80px;
+    height: 30px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+}
+main{
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    left: 25%;
+
+}
+.divinputic{
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 700px;
+    height: 40px;
+    position: relative;
+}
+.dileft{
+    position: absolute;
+    top: 22%;
+    left: 10px;
+
+
+}
+.diright{
+    position: absolute;
+    top: 22%;
+    right: 10px;
+}
+
+.divin input{
+    border: none;
+    border-radius: 40px;
+    width: 600px;
+    height: 20px;
+
+}
+
+.googleimage img{
+    width: 500px;
+    height: auto;
+}
+
+.mikrofon input{
+    width: 20px;
+}
+.dilmercek input{
+    width: 30px;
+}
+
+.searcb{
+    margin: 20px 10px;
+
+}
+.search input{
+    margin: 20px 20px;
+    border: none;
+    padding: 12px 25px;
+    font-size: 20px;
+    color: rgb(102, 102, 102);
+    background-color: rgb(241, 241, 241);
+}
+.footer a{
+    color: rgb(81, 31, 128);
+
+}

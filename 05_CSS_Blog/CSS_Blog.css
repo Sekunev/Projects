@@ -2,12 +2,15 @@
     margin: 0;
     box-sizing: border-box;
     /* border: 2px solid blue; */
+    background-color: #222222;
 }
 #div1{
-    border: 2px solid blue;
+    border: 4px solid fuchsia;
     position: relative;
     height: 250px;
     width: 500px;
+    background-color: #222222;
+    margin: 20%;
 
 }
 img{
@@ -25,6 +28,8 @@ img{
     margin-right: 10px;
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 5px;
 
 }
 
@@ -32,3 +37,33 @@ header h1{
     margin-bottom:5px ;
     font-size: 26px;
 }
+
+/*! 2. yöntem  */
+
+/* #div1{
+    border: 2px solid blue;
+}
+
+img{
+    width: 200px;
+    margin: 50px 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    float: left;
+    
+}
+p{
+    padding: 50px;
+    font-size: 35px;
+}
+span{
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+} */
