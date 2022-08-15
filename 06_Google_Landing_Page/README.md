@@ -14,6 +14,6 @@ I mastered HTML and CSS features in this project. You can see the visual represe
 ### How to Use the Project
 + First download a code editor
 + Second open the files : [My Docs](https://github.com/Sekunev/Projects/tree/main/06_Google_Landing_Page)
-+ You can use this tutorial : VS Code tutorial
++ You can use this tutorial : [VS Code tutorial](https://www.youtube.com/watch?v=fJEbVCrEMSE)
 
 
