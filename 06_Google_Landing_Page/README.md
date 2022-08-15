@@ -17,4 +17,4 @@ I mastered HTML and CSS features in this project. You can see the visual represe
 + You can use this tutorial : [VS Code tutorial](https://www.youtube.com/watch?v=fJEbVCrEMSE)
 
 
-<img src="(https://github.com/Sekunev/Projects/tree/main/06_Google_Landing_Page)"/>
+<img src="https://github.com/Sekunev/Projects/tree/main/06_Google_Landing_Page"/>
