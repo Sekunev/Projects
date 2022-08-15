@@ -17,5 +17,5 @@ I mastered HTML and CSS features in this project. You can see the visual represe
 + You can use this tutorial : [VS Code tutorial](https://www.youtube.com/watch?v=fJEbVCrEMSE)
 
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sekunev&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sekunev/Projects/tree/main/06_Google_Landing_Page&theme=tokyonight)
 
