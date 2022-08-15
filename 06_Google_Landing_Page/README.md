@@ -8,3 +8,10 @@
 ### Overview
 I mastered HTML and CSS features in this project. You can see the visual representation of the website above.
 
+### Used in this project
+👉HTML tags, Comments, CSS styling, Positioning,etc.
+
+### How to Use the Project
+First download a code editor
+Second open the files : My Docs
+You can use this tutorial : VS Code tutorial
