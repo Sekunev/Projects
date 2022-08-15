@@ -16,4 +16,4 @@ I mastered HTML and CSS features in this project. You can see the visual represe
 + Second open the files : [My Docs](https://github.com/Sekunev/Projects/tree/main/06_Google_Landing_Page)
 + You can use this tutorial : [VS Code tutorial](https://www.youtube.com/watch?v=fJEbVCrEMSE)
 
-
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Sekunev&theme=default&hide_border=true&include_all_commits=false&count_private=true&layout=compact)
