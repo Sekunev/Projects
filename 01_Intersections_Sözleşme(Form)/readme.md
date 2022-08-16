@@ -1,7 +1,6 @@
 # Google_Landing_Page
 
-### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/01_Intersections_Sözleşme(Form)
-/)
+### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/01_Intersections_Sözleşme(Form)/)
 
 ### Visualization of the Website
 ![image](https://user-images.githubusercontent.com/101554737/184899396-7bb257e6-9136-4368-a3d7-2637b1d940a1.png)
@@ -19,5 +18,5 @@ I mastered HTML and CSS features in this project. You can see the visual represe
 + You can use this tutorial : [VS Code tutorial](https://www.youtube.com/watch?v=fJEbVCrEMSE)
 
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sekunev/Projects/tree/main/06_Google_Landing_Page&theme=tokyonight)
+
 
