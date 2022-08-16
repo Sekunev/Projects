@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "open sans";
+    font-size: 20px;
+    font-weight: 600;
+
+}
+/***** NAV - TOP ****/
+nav.nav-top{
+    background-image: linear-gradient(to right, white, purple);
+
+}
+.nav-top img {
+    width: 70px;
+    border: 1px solid red;
+    outline: 3px solid red;
+    outline-offset: 3px;
+    margin: 12px;
+
+}
+.nav-top .sing-in {
+    float: right;
+    margin: 2.5rem 2rem;
+    color: white;
+    font-size: 700;
+
+}
+.nav-top .sing-in a{
+    text-decoration: none;
+    color: white;
+
+}
+.nav-top .sing-in a:hover{
+    color: black;
+}
+.clearfix {
+    clear: both;
+}
+/* **** NAV - MAİN *** */
+.nav-main {
+    text-align: center;
+    background-color:#ffaa53;
+    position: sticky;
+    top: 0;
+    padding: 2rem;
+    font-size: 1.5rem;
+
+}
+.nav-main a {
+    text-decoration: none;
+    margin-right: 60px;
+    font-family: 'DynaPuff', cursive;
+    color: black;
+    padding: px;
+
+}
+.nav-main a:hover {
+    color: white;
+}
+/* ****MAİN *****/
+main{
+    padding: 2rem;
+    color: black;
+    text-align: justify;
+}
+.slack{
+    position: fixed;
+    bottom: 2rem;
+    right: 3rem;
+    font-size: 3rem;
+    background-color: red;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    border-radius: 50%;
+
+    color: white;
+
+}
+.slack i:hover{
+color: black;
+}
+
+
