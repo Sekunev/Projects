@@ -1,6 +1,6 @@
-# Google_Landing_Page
+# Intersections_Sözleşme(Form)
 
-### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/01_Intersections_Sözleşme(Form))
+### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/01_Intersections_Sözleşme(Form)/)
 
 ### Visualization of the Website
 ![image](https://user-images.githubusercontent.com/101554737/184899396-7bb257e6-9136-4368-a3d7-2637b1d940a1.png)
