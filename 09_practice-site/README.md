@@ -1,9 +1,11 @@
-# Google_Landing_Page
+# Practice-Site
 
-### Check The Live Website➡️ [Live Website](https://sekunev.github.io/Projects/06_Google_Landing_Page/)
+### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/09_practice-site/)
+
 
 ### Visualization of the Website
-![image](https://user-images.githubusercontent.com/101554737/184587683-eeeb960c-d3d0-4fe7-b0db-6daea6aa3515.png)
+![image](https://user-images.githubusercontent.com/101554737/185069068-86ff4b20-7de7-4d18-b680-1e3be552b4f7.png)
+
 
 ### Overview
 I mastered HTML and CSS features in this project. You can see the visual representation of the website above.
@@ -13,6 +15,6 @@ I mastered HTML and CSS features in this project. You can see the visual represe
 
 ### How to Use the Project
 + First download a code editor
-+ Second open the files : [My Docs](https://github.com/Sekunev/Projects/tree/main/06_Google_Landing_Page)
++ Second open the files : [My Docs](https://github.com/Sekunev/Projects/tree/main/09_practice-site)
 + You can use this tutorial : [VS Code tutorial](https://www.youtube.com/watch?v=fJEbVCrEMSE)
 
