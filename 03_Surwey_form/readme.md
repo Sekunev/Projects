@@ -3,7 +3,9 @@
 ### Check The Live Website➡️ [Live Website](https://sekunev.github.io/Projects/03_Surwey_form)
 
 ### Visualization of the Website
-![image](https://user-images.githubusercontent.com/101554737/184587683-eeeb960c-d3d0-4fe7-b0db-6daea6aa3515.png)
+![image](https://user-images.githubusercontent.com/101554737/185180817-e54a1ec7-f3d8-443a-baef-5a24aa5cf5a9.png)
+![image](https://user-images.githubusercontent.com/101554737/185180925-0b8f0254-667f-4797-a5c8-3039676b6f6b.png)
+
 
 ### Overview
 I mastered HTML and CSS features in this project. You can see the visual representation of the website above.
@@ -13,7 +15,7 @@ I mastered HTML and CSS features in this project. You can see the visual represe
 
 ### How to Use the Project
 + First download a code editor
-+ Second open the files : [My Docs](https://github.com/Sekunev/Projects/tree/main/01_Intersections_Sözleşme(Form))
++ Second open the files : [My Docs](https://github.com/Sekunev/Projects/tree/main/03_Surwey_form)
 + You can use this tutorial : [VS Code tutorial](https://www.youtube.com/watch?v=fJEbVCrEMSE)
 
 
