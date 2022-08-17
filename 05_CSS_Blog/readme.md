@@ -1,6 +1,6 @@
 # Surwey form
 
-### Check The Live Website➡️ [Live Website](https://sekunev.github.io/Projects/03_Surwey_form)
+### Check The Live Website➡️ [Live Website](https://sekunev.github.io/Projects/05_CSS_Blog)
 
 ### Visualization of the Website
 ![image](https://user-images.githubusercontent.com/101554737/185180817-e54a1ec7-f3d8-443a-baef-5a24aa5cf5a9.png)
