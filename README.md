@@ -20,6 +20,11 @@
 ### Visualization of the Website
 ![image](https://user-images.githubusercontent.com/101554737/185704162-ce1c7544-2a23-47b0-b7ab-f1b46ef53266.png)
 
+### Check The Live Website ➡️ [Amazon Live Website](https://sekunev.github.io/Projects/13_Amazon_project/)
+
+### Visualization of the Website
+![image](https://user-images.githubusercontent.com/101554737/185704441-dcb614bc-16b1-4280-a2a4-a7b3232ec3c4.png)
+
 
 
 
