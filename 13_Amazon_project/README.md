@@ -1,6 +1,6 @@
 # Practice-Site
 
-### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/09_practice-site/)
+### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/13_Amazon_project/)
 
 
 ### Visualization of the Website
