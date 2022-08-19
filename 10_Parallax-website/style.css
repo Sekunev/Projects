@@ -1,0 +1,153 @@
+* {
+  border: 1px solid black;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #666;
+  height: 100%;
+}
+
+.background-container--image1 {
+  background-image: url("./img/bg.jpg");
+  min-height: 100%;
+}
+
+.background-container--image2 {
+  background-image: url("./img//bg2.jpg");
+  min-height: 80%;
+}
+
+.background-container--image3 {
+  background-image: url("./img//bg3.jpg");
+  min-height: 80%;
+}
+
+.background-container--image4 {
+  background-image: url("./img//bg4.jpg");
+  min-height: 80%;
+}
+
+.background-container--image1,
+.background-container--image2,
+.background-container--image3,
+.background-container--image4 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.7;
+
+  /*? background-container--image claslarınının içeriklerinin hizalamasında iki yöntem kullanılabilir. Flex ve position. */
+
+  position: relative;
+  /*? heading-container clasının parenti bu clas olduğu için burada position'u relatif yapıyoruz. */
+
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.heading-container__heading--logo {
+  width: 30%;
+  margin: 1rem;
+}
+
+.heading-container {
+  /* position */
+  position: absolute;
+  top: 50%;
+  width: 100%;
+
+  /*? ortalamak için top ve width değerlerini giriyoruz. absulut yaparak akıştan çıkarmayı unutmuyoruz. */
+
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  color: white;
+}
+
+.heading-container__heading--big {
+  background-color: black;
+  padding: 2rem;
+  border-top-left-radius: 2rem;
+  /* top ve left'e border radius özelliği verdik. */
+  border-bottom-right-radius: 2rem;
+  outline: 0.5rem inset purple;
+  /* inset farklı kenarlarda renk tonları oluşturdu */
+  outline-offset: 1rem;
+  text-transform: uppercase;
+  /* yazı büyük harfe çevrildi */
+  line-height: 5rem;
+}
+
+.heading-container__heading--small {
+  background-color: black;
+  padding: 0.7rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+  outline: 0.4rem inset purple;
+  outline-offset: 0.2rem;
+  text-transform: capitalize;
+  /* yazının kelimelerinin ilk harfleri büyük h. çevrildi */
+  line-height: 5rem;
+}
+
+.section {
+  text-align: center;
+  padding: 3rem 5rem;
+}
+
+.section--light {
+  background-color: rgb(241, 241, 241);
+  color: #666;
+}
+
+.section--dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+/* tarayıcı penceresi 760px altına indiğinde aşağıdaki özelliklerin kullanılmasını sağla demiş olduk @media ile. */
+@media (max-width: 760px) {
+  .heading-container {
+    font-size: 2rem;
+  }
+  .heading-container__heading--big {
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    outline: 0.4rem inset purple;
+    outline-offset: 0.6rem;
+    line-height: 2.5rem;
+  }
+  .heading-container__heading--small {
+    padding: 0.4rem;
+    border-top-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    outline: 0.2rem inset purple;
+    outline-offset: 0.1rem;
+    line-height: 2.4rem;
+  }
+  .section {
+    font-size: 0.9rem;
+  }
+}
+
+/* tarayıcı penceresi 568px altına indiğinde aşağıdaki özelliklerin kullanılmasını sağla demiş olduk @media ile. */
+
+@media (max-width: 568px) {
+  .background-container--image1,
+  .background-container--image2,
+  .background-container--image3,
+  .background-container--image4 {
+    background-attachment: scroll;
+    /* genişlik 568'in altına indiğinde backgroun'u scroll ile sayfa ile birlikte kayar hale getirdik. */
+  }
+}
