@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* @font-face {
+  font-family: 'amazon';
+  src: url(./webfonts/AmazonEmber_W_Bd.woff);
+} */
+.container{
+  max-width: 1900px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.818);
+  justify-content: space-between;
+  color: white;
+  height: 80px;
+  position: fixed;
+  /* left: 0; */
+  top: 0;
+  width: 100%;
+  max-width: 1900px;
+
+}
+#menu {
+  display: flex;
+  margin-right: 40px;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: baseline;
+
+}
+#globe::before {
+  color: rgb(254, 249, 249);
+}
+
+select{
+  border:2px solid rgb(0 0 0);
+  outline: none;
+  background-color: rgb(0 0 0);
+  color: white;
+
+}
+
+.dil {
+  margin: 0 10px;
+
+}
+
+
+.dil + a{
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+  line-height: 20px;
+  color: rgb(241, 244, 246);
+  font-family: 'amazon';
+}
+
+#logo img {
+  width: 112px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#world {
+  width: 20px;
+
+}
+.bolum1 {
+  background-image: url(./images/En_ust.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 565px;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  margin-top: 80px;
+}
+
+.btn{
+  background-color: #0f79af;
+  color: white;
+  height: 60px;
+  width: 300px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 17px;
+  border: none;
+  margin: 10px;
+}
+
+.icerik1 {
+  width: 550px;
+  margin-right: 250px;
+  text-align: center;
+  font-size: 25px;
+}
+.bolum2{
+  display: flex;
+  background-color: #B0E5F7;
+}
+.icerik2{
+  margin-left: -320px;
+  margin-top: 250px;
+  font-size: 24px;
+}
+.bolum3{
+  background-image: url(./images/ucuncu.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 565px;
+  background-size: cover;
+ /* display: flex;
+  justify-content: flex-end;
+  align-items: center; */
+  color: white;
+  padding-left: 55%;
+}
+.icerik3{
+  width: 550px;
+  margin-right: 250px;
+  padding-top: 250px;
+  font-size: 24px;
+}
+.bolum4{
+  width: 100%;
+  padding-top: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+.column{
+  display: inline-block;
+  float: left;
+  width: 33.3%;
+  font-size: large;
+  padding-bottom: 100px;
+}
+.clear{
+  clear: both;
+}
+.footer{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  height: 100%;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+.footer p{
+  padding: 15px;
+  color: rgb(139, 135, 135);
+}
