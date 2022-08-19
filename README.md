@@ -10,6 +10,16 @@
 ### Visualization of the Website
 ![image](https://user-images.githubusercontent.com/101554737/184587683-eeeb960c-d3d0-4fe7-b0db-6daea6aa3515.png)
 
+### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/10_Parallax-website/)
+
+### Visualization of the Website
+![Project_003_](https://user-images.githubusercontent.com/101554737/185703291-bf2949d6-0ac7-468f-91c2-1b6257a68911.gif)
+
+### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/12_Cars/)
+
+### Visualization of the Website
+![image](https://user-images.githubusercontent.com/101554737/185704162-ce1c7544-2a23-47b0-b7ab-f1b46ef53266.png)
+
 
 
 
