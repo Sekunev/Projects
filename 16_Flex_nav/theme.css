@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,400;1,500&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+:root {
+  --mavi1: hsl(205, 100%, 30%);
+  --mavi2: hsl(205, 100%, 40%);
+  --mavi3: hsl(205, 100%, 50%);
+  --mavi4: hsl(205, 100%, 60%);
+  --mavi5: hsl(205, 100%, 70%);
+
+  /* asil renklerin acik tonları */
+  --mavi-6: hsl(205, 89%, 70%);
+  --mavi-7: hsl(205, 90%, 76%);
+  --mavi-8: hsl(205, 86%, 81%);
+  --mavi-9: hsl(205, 90%, 88%);
+  --mavi-10: hsl(205, 100%, 96%);
+  --mavi-11: hsl(205, 3%, 95%);
+
+  /* Basliklar icin kullanilan koyu tonlar */
+  --gri-1: hsl(209, 61%, 16%);
+  --gri-2: hsl(211, 39%, 23%);
+  --gri-3: hsl(209, 34%, 30%);
+  --gri-4: hsl(209, 28%, 39%);
+
+  /* Paragraflar icin kullanilan renkler */
+  --gri-5: hsl(210, 22%, 49%);
+  --gri-6: hsl(209, 23%, 60%);
+  --gri-7: hsl(211, 27%, 70%);
+  --gri-8: hsl(210, 31%, 80%);
+  --gri-9: hsl(212, 33%, 89%);
+  --gri-10: hsl(210, 36%, 96%);
+
+  --mor: hsl(276, 85%, 49%);
+
+  --beyaz: #fff;
+  --koyu-kirmizi: hsl(360, 67%, 44%);
+  --acik-kirmizi: hsl(360, 71%, 66%);
+  --koyu-yesil: hsl(125, 67%, 44%);
+  --acik-yesil: hsl(125, 71%, 66%);
+  --siyah: #222;
+
+  /* Tropikal Renkler in HSLA */
+  --tropikal-yesil1: hsla(168, 66%, 22%, 1);
+  --tropikal-yesil2: hsla(115, 34%, 37%, 1);
+  --tropikal-yesil3: hsla(75, 51%, 60%, 1);
+  --tropikal-sari: hsla(52, 100%, 68%, 1);
+  --turuncu: hsla(11, 100%, 59%, 1);
+
+  --koyu-golge: 0px 0px 15px rgba(0, 0, 0, 0.4);
+  --acik-gogle: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  --ff-monteserrat: "Montserrat", sans-serif;
+  --ff-lato: "Lato", sans-serif;
+  --ff-roboto: "Roboto", sans-serif;
+}

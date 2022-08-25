@@ -1,0 +1,77 @@
+/**Renk temasını import ettik*/
+@import "theme.css";
+* {
+  /* border: 1px solid black; */
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--ff-monteserrat);
+  font-weight: 600;
+}
+
+nav {
+  margin-top: 3.5rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .left,
+nav .middle,
+nav .right {
+  width: 33.3%;
+  padding: 2px;
+  /**elemanların büyümesine izin ver*/
+  /* flex-grow: 1; */
+  /*!Tüm elemanların eşit miktarda alan tutabilmesine izin ver.*/
+  /* flex-basis: 0; */
+}
+
+nav .left {
+  background-color: var(--gri-5);
+  box-shadow: 10px 30px var(--açık-gölge);
+}
+nav .left img {
+  width: 40px;
+  height: 40px;
+  float: left;
+  padding: 5px;
+}
+
+nav .middle {
+  text-align: center;
+  background-color: var(--koyu-golge);
+  box-shadow: var(--koyu-golge);
+  border-radius: 10px;
+  color: white;
+}
+nav .middle .item {
+  display: inline-block;
+  text-decoration: none;
+  padding: 16px;
+  color: black;
+  transition: background-color 1s, color 1s;
+}
+
+nav .middle .item:hover {
+  background-color: var(--mavi-7);
+  border-radius: 10px;
+  color: var(--beyaz);
+}
+
+nav .right {
+  text-align: right;
+  background-color: var(--mavi-7);
+  box-shadow: var(--acik-golge);
+  padding: 10px;
+}
+nav .right i {
+  color: var(--siyah);
+  font-size: 40px;
+  transition: font-size 0.5s;
+}
+nav .right i:hover {
+  font-size: 50px;
+}
