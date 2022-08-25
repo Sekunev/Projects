@@ -1,4 +1,4 @@
-# Practice-Site
+# Flex nav
 
 ### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/16_Flex_nav/)
 
