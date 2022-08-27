@@ -30,5 +30,8 @@
 ### Visualization of the Website
 ![image](https://user-images.githubusercontent.com/101554737/187047501-73d5cce3-8568-43e2-b771-843d67a4bf14.png)
 
+### Check The Live Website ➡️ [Team-members-page CSS Flex Box - Grid](https://sekunev.github.io/Projects/17-team-members-page/)
 
+### Visualization of the Website
+![image](https://user-images.githubusercontent.com/101554737/187047752-2f2c5b15-9603-46a2-be80-82d16c228162.png)
 
