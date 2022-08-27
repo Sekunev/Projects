@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto 300px 300px 200px;
+  grid-template-rows: 2fr 200px 300px 1fr;
+  gap: 0.5rem;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  width: 80rem;
+  margin: auto;
+  padding: 20px;
+  font-family: "Dancing Script", cursive;
+  border: 1px solid rgb(116, 25, 25);
+}
+header {
+  grid-column: 1 / span 4;
+  background-image: url(https://cdn.pixabay.com/photo/2017/06/03/19/19/banner-2369464__340.jpg);
+  background-position: center;
+  background-size: cover;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+.Box-1 {
+  grid-column: 1 / span 1;
+}
+.Box-2 {
+  grid-column: 2 / span 1;
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.3rem;
+  background: rgb(196, 101, 50);
+  background: linear-gradient(
+    180deg,
+    rgba(196, 101, 50, 1) 0%,
+    rgba(0, 0, 0, 1) 88%
+  );
+  padding: 0.5rem;
+}
+.Box-3 {
+  grid-column: 3 / span 1;
+  background-image: url(https://media.istockphoto.com/photos/sunset-time-in-galata-tower-picture-id1310082884?b=1&k=20&m=1310082884&s=170667a&w=0&h=yMwtc30wwxk7mWBGk65LrPKRkGXNvU_h6khc4sAUBOo=);
+  background-position: center;
+  background-size: cover;
+}
+.sidebar {
+  background-image: url(https://media.istockphoto.com/photos/famous-galata-tower-picture-id1283505130?k=20&m=1283505130&s=612x612&w=0&h=kEHBTnPX3PRlnaVRcznH8GQBIda9Z6SVcXGME2ORdlI=);
+  background-position: center;
+  background-size: cover;
+  grid-column: 4 / span 1;
+  grid-row: 2 / span 2;
+}
+.content {
+  grid-column: 1 / span 3;
+}
+header,
+.Box-1,
+.Box-2,
+.Box-3,
+.sidebar,
+.content,
+footer {
+  background-color: #0969da;
+  /* padding: 1rem; */
+}
+footer {
+  grid-column: 1 / span 4;
+  background-image: url(https://cdn.pixabay.com/photo/2022/06/16/18/07/banner-7266577__340.jpg);
+  background-position: center;
+  background-size: cover;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+}
+img,
+iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 0.5px solid #ccc; */
+}
+body {
+  background-color: whitesmoke;
+  margin: 3rem 6rem;
+}
+header {
+  display: flex;
+  margin-bottom: 3rem;
+}
+.header {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.paragraf {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+  font-size: 1.5rem;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.card img {
+  width: 250px;
+  box-shadow: 5px 5px 20px rgb(100, 136, 130);
+  border-radius: 10px;
+}
+.card-2,
+.card-5 {
+  padding-top: 4rem;
+}
+.card figcaption {
+  padding-top: 1rem;
+}
+.task {
+  font-weight: bolder;
+}
+.card-1 {
+  width: 290px;
+  position: relative;
+}
+.card-1 .task {
+  transform: rotate(90deg);
+  position: absolute;
+  right: -50px;
+  top: 70px;
+}
+
+.card-2 {
+  width: 290px;
+  position: relative;
+}
+.card-2 .task {
+  transform: rotate(90deg);
+  position: absolute;
+  right: -40px;
+  top: 120px;
+}
+
+.card-3 {
+  width: 290px;
+  position: relative;
+}
+.card-3 .task {
+  transform: rotate(90deg);
+  position: absolute;
+  right: -25px;
+  top: 42px;
+}
+.card-4 {
+  width: 290px;
+  position: relative;
+}
+.card-4 .task {
+  transform: rotate(90deg);
+  position: absolute;
+  right: -35px;
+  top: 50px;
+}
+.card-5 {
+  width: 290px;
+  position: relative;
+}
+.card-5 .task {
+  transform: rotate(90deg);
+  position: absolute;
+  right: -25px;
+  top: 110px;
+}
+
+.card-6 {
+  width: 290px;
+  position: relative;
+}
+.card-6 .task {
+  transform: rotate(90deg);
+  position: absolute;
+  right: -27px;
+  top: 47px;
+}
+.card:hover {
+  transition: all 1.5s ease-out;
+  transform: scale(90%);
+}
+
+@media screen and (max-width: 1053px) {
+  .card {
+    width: 50%;
+  }
+  .card-2,
+  .card-4,
+  .card-6 {
+    padding-top: 4rem;
+  }
+  .card-5 {
+    padding-top: 0;
+  }
+  .card-5 .task {
+    transform: rotate(90deg);
+    position: absolute;
+    right: -25px;
+    top: 50px;
+  }
+  .card-4 .task {
+    transform: rotate(90deg);
+    position: absolute;
+    right: -35px;
+    top: 115px;
+  }
+  .card-6 .task {
+    transform: rotate(90deg);
+    position: absolute;
+    right: -27px;
+    top: 110px;
+  }
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header {
+    width: 100%;
+  }
+  .paragraf {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  main {
+    flex-direction: column;
+  }
+  .header {
+    margin-bottom: 2rem;
+  }
+  .card-2,
+  .card-4 {
+    padding-bottom: 4rem;
+  }
+}
