@@ -25,7 +25,10 @@
 ### Visualization of the Website
 ![image](https://user-images.githubusercontent.com/101554737/185704441-dcb614bc-16b1-4280-a2a4-a7b3232ec3c4.png)
 
+### Check The Live Website ➡️ [CSS Grid - Galata Kulesi](https://sekunev.github.io/Projects/18_CSS_Grid/)
 
+### Visualization of the Website
+![image](https://user-images.githubusercontent.com/101554737/187047501-73d5cce3-8568-43e2-b771-843d67a4bf14.png)
 
 
 
