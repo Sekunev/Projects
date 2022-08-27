@@ -1,77 +1,21 @@
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
+# Team-members-page CSS Flex Box - Grid
 
-# Project-004 : Team Members Page (HC-004)
-
-## Description
-Project aims to create your development team web page.
-
-## Problem Statement
-
-- Your company is updating its website. They ask you to make your development team page.
-
-## Project Skeleton 
-
-```
-004-team-members-page(folder)
-|
-|----readme.md         # Given to the students (Definition of the project)
-|----/images # Contains development team members photos         
-|----solution
-        |----index.html  
-        |----style.css   
-        
-```
-
-## Expected Outcome
-
-![Project 004 Snapshot](./project04.png)
-
-## Objective
-
-Build a responsive web page similar to [Project 004 Snapshot](./project04.png) 
-### At the end of the project, following topics are to be covered;
-
-- HTML 
-
-- CSS
+### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/17-team-members-page
+/)
 
 
-### At the end of the project, students will be able to;
-
-- improve coding skills within HTML & CSS & JS
-
-- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
-
-## Steps to Solution
-  
-- Step 1: Download or clone project repo on Github 
-
-- Step 2: Create project folder for local public repo on your pc
-
-- Step 3: Team Members Web Page
-
->Part-1 HTML Structure
-
-	- Creat structure of the HTML5
-	- Give name of your project (title)
-	- Create the main structur of the HTML
-
->>Part-2 CSS Structure
-
-    - You can apply all the technologies you learn. (Flexbox, Grid)
-	- Set a background and define font color
-	- Set container background color and margin
-	- Define others color-size-padding etc...
-
-### Images
-[Images Folder](./images/)
+### Visualization of the Website
+![image](https://user-images.githubusercontent.com/101554737/187047501-73d5cce3-8568-43e2-b771-843d67a4bf14.png)
 
 
-## Notes
+### Overview
+I mastered HTML and CSS features in this project. You can see the visual representation of the website above.
 
-- Pay attention to the direction of the texts in the picture.
-- **Your page should be responsive web.**
+### Used in this project
+👉HTML tags, Comments, CSS styling, Positioning,etc.
 
-<center> ⌛ Happy Coding  ✍ </center>
-
+### How to Use the Project
++ First download a code editor
++ Second open the files : [My Docs](https://github.com/Sekunev/Projects/tree/main/17-team-members-page
+)
++ You can use this tutorial : [VS Code tutorial](https://www.youtube.com/watch?v=fJEbVCrEMSE)
