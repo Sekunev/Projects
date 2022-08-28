@@ -1,6 +1,6 @@
 # Team-members-page CSS Flex Box - Grid
 
-### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/17-team-members-page/)
+### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/17_Team-members-page/)
 
 
 ### Visualization of the Website
@@ -15,6 +15,6 @@ I mastered HTML and CSS features in this project. You can see the visual represe
 
 ### How to Use the Project
 + First download a code editor
-+ Second open the files : [My Docs](https://github.com/Sekunev/Projects/tree/main/17-team-members-page
++ Second open the files : [My Docs](https://github.com/Sekunev/Projects/tree/main/17_Team-members-page
 )
 + You can use this tutorial : [VS Code tutorial](https://www.youtube.com/watch?v=fJEbVCrEMSE)
