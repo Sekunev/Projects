@@ -33,7 +33,7 @@
   opacity: 0.5;
 }
 .content:active {
-  transform: scale(94%);
+  /* transform: scale(94%); */
 }
 .rakam0 {
   border-radius: 50px;
