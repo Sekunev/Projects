@@ -21,7 +21,6 @@
   color: white;
 }
 .content {
-  /* margin-top: 1px; */
   background-color: wheat;
   border-radius: 50%;
   display: flex;
@@ -29,19 +28,19 @@
   align-items: center;
   cursor: pointer;
   line-height: 78px;
-
-  /* text-align: center; */
 }
 .content:hover {
   opacity: 0.5;
 }
 .content:active {
-  transform: scale(97%);
+  transform: scale(94%);
 }
 .rakam0 {
-  height: 4.5rem;
   border-radius: 50px;
+  display: grid;
   grid-column: 1 / span 2;
+  justify-content: flex-start;
+  padding-left: 35px;
 }
 
 .ekran {
