@@ -30,7 +30,7 @@
   line-height: 78px;
 }
 .content:hover {
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 .content:active {
   /* transform: scale(94%); */
