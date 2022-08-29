@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: black;
+  width: 24rem;
+  height: 40rem;
+  margin: 3% auto;
+  border-radius: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  gap: 0.5rem;
+  font-size: 2rem;
+  padding: 15px;
+  font-weight: 450;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.content {
+  /* margin-top: 1px; */
+  background-color: wheat;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  line-height: 78px;
+
+  /* text-align: center; */
+}
+.content:hover {
+  opacity: 0.5;
+}
+.content:active {
+  transform: scale(97%);
+}
+.rakam0 {
+  height: 4.5rem;
+  border-radius: 50px;
+  grid-column: 1 / span 2;
+}
+
+.ekran {
+  width: 21.5rem;
+  height: 10rem;
+  grid-column: 1 / span 4;
+  border: 0.3px solid #615f5c;
+  border-radius: 40px;
+  margin: 0.5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a5a5a5;
+  opacity: 0.4;
+}
+.islem {
+  background-color: #f1a33c;
+}
+.ac {
+  background-color: #a5a5a5;
+  color: black;
+}
+.rakam {
+  background-color: #333333;
+}
