@@ -1,6 +1,6 @@
 # SASS_Aplications
 
-### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/21_SASS_Aplications/)
+### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/21_SASS_Aplications/structured/)
 
 
 ### Visualization of the Website
