@@ -4,7 +4,7 @@
 
 
 ### Visualization of the Website
-![image](https://user-images.githubusercontent.com/101554737/187170205-73afa1e1-36e7-492d-b57d-b28a0b640ebf.png)
+
 
 
 ### Overview
