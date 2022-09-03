@@ -1,0 +1,21 @@
+@use "../abstracts/mixins" as f;
+
+.cards {
+  display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  padding: 0.8rem;
+  gap: 0.5rem;
+  .card1 {
+    @include f.foncksiyon(green, 5px solid rgb(13, 231, 60));
+  }
+  .card2 {
+    @include f.foncksiyon(red, 5px solid black);
+  }
+  .card3 {
+    @include f.foncksiyon(grey, 5px solid rgb(0, 0, 0));
+  }
+  .card4 {
+    @include f.foncksiyon(yellow, 5px solid rgb(61, 37, 172));
+  }
+}

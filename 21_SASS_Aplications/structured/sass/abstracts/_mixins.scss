@@ -1,0 +1,9 @@
+@import "variables";
+@mixin foncksiyon($bgColor1, $myBorder) {
+  background-color: $bgColor1;
+  color: beige;
+  width: 25%;
+  height: 15rem;
+  border: $myBorder;
+  border-radius: 5px;
+}

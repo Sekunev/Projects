@@ -1,0 +1,8 @@
+// Bu dosya aynı klasör içindeki dosyaları birleştirmek için oluşturuldu @forward birleştirmeye yarıyor.
+// böylece uygulama scss'e sadece _index.scss'i tanıtmış olmamız yeterli olacaktır.
+
+@forward "./articles";
+@forward "./banner";
+@forward "./cards";
+@forward "./footer";
+@forward "./header";

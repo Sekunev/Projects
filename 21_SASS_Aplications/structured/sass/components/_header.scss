@@ -1,0 +1,28 @@
+@use "../abstracts/variables" as *;
+
+header {
+  background-color: $bgColor1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-size: $fontSize1;
+  img {
+    width: $genisliklogo;
+  }
+  ul {
+    list-style-type: none;
+  }
+  li {
+    display: inline-block;
+    padding: 0.5rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: $fontColor1;
+  }
+}

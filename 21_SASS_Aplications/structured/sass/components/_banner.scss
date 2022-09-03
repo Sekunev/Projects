@@ -1,0 +1,32 @@
+@use "../abstracts/variables" as *;
+// use devamına * konduğunda aşağıda değişkenden önce dosya ismi yazmaya gerek kalmaz.
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 2;
+  background-color: $bgBanner;
+  padding: 1.5rem;
+
+  img {
+    width: 30%;
+    min-width: 250px;
+    max-width: 400px;
+  }
+  aside {
+    button {
+      border-radius: 5px;
+      border: none;
+      margin-right: 1rem;
+      margin-top: 1rem;
+      padding: 0.8rem;
+      background-color: $bgBtnColor;
+
+      &:hover {
+        cursor: pointer;
+        background-color: hotpink;
+      }
+    }
+  }
+}

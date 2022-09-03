@@ -1,0 +1,18 @@
+@use "../abstracts/variables" as *;
+
+.articles {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  .article1 {
+    background-color: grey;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 10rem;
+  }
+  .article2 {
+    @extend .article1;
+    background-color: $bgBtnColor;
+  }
+}

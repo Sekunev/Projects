@@ -1,0 +1,8 @@
+@use "./base/reset";
+@use "./abstracts/variables" as v;
+@use "./components/index" as *;
+// forward ile birleştirme yapıldığında index yazmasakta oluyor. biz yazdık.
+
+body {
+  background-color: v.$bodyBg;
+}
