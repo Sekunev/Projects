@@ -1,0 +1,27 @@
+@import "./base/reset";
+
+@import "./abstracts/mixins", "./abstracts/variables";
+
+@import "./pages/about", "./pages/contact", "./pages/home", "./pages/projects";
+
+// awesome
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+@import "./components/footer", "./components/nav", "./components/responsive";
+
+body {
+  font-family: $font-family;
+  line-height: 1;
+  color: $text-color;
+  background-color: $primary-color;
+  height: 10vh;
+}
+a {
+  text-decoration: none;
+  color: $text-color;
+}
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}

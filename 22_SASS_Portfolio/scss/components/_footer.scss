@@ -1,0 +1,55 @@
+.link-style {
+  a {
+    padding: 0.4rem;
+    @include transition(1s);
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+footer.horizontal {
+  //   border: 1px solid red;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem;
+  @extend .link-style;
+}
+footer.vertical {
+  // border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 1rem;
+    @extend .link-style;
+  }
+  .copyright {
+    position: fixed;
+    bottom: 1rem;
+    right: 3rem;
+    // metnin yönünü değiştirmek için 2 yöntem
+
+    // transform: rotate(90deg) translate(-3rem, -5rem);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+}
+
+footer.middle {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  @extend .link-style;
+}
