@@ -6,6 +6,10 @@
 
 ### Visualization of the Website
 ![image](https://user-images.githubusercontent.com/101554737/188864286-63a73daf-5689-4d09-98c1-1edc7ac97b89.png)
+![image](https://user-images.githubusercontent.com/101554737/188865816-3ad75ef4-5f94-44ba-ac03-f0352878536f.png)
+![image](https://user-images.githubusercontent.com/101554737/188865855-1acd3016-4f7d-412c-a1c5-b757d0152275.png)
+
+
 
 
 ### Overview
