@@ -1,7 +1,7 @@
 # Boots Display Flex
 
 
-### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/23_Boots_Disp_Flex/.)
+### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/23_Boots_Disp_Flex/)
 
 
 ### Visualization of the Website
