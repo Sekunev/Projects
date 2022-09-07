@@ -1,6 +1,6 @@
 # SASS_Portfolio
 
-### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/22_SASS_Portfolio)
+### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/24_Boots_Grid_BrePoint/)
 
 
 ### Visualization of the Website
@@ -15,6 +15,6 @@ I mastered HTML and CSS features in this project. You can see the visual represe
 
 ### How to Use the Project
 + First download a code editor
-+ Second open the files : [My Docs](https://github.com/Sekunev/Projects/tree/main/22_SASS_Portfolio)
++ Second open the files : [My Docs](https://github.com/Sekunev/Projects/tree/main/24_Boots_Grid_BrePoint)
 + You can use this tutorial : [VS Code tutorial](https://www.youtube.com/watch?v=fJEbVCrEMSE)
 
