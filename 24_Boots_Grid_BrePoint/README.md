@@ -1,4 +1,5 @@
-# SASS_Portfolio
+# Bootstrap Grid Break Point
+
 
 ### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/24_Boots_Grid_BrePoint/)
 
@@ -11,7 +12,7 @@
 I mastered HTML and CSS features in this project. You can see the visual representation of the website above.
 
 ### Used in this project
-👉HTML tags, Comments, SASS, CSS styling, CSS Grid, Media Query Positioning,etc.
+👉HTML tags, Comments, Bootstrap, CSS styling, CSS Grid, Media Query Positioning,etc.
 
 ### How to Use the Project
 + First download a code editor
