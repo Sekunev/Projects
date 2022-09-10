@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Boostrap Web Pages</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-lg fixed-top">
+      <div class="container bg-dark p-2">
+        <div class="left">
+          <a class="navbar-brand text-white" href="#">PınarBaşı Restaurant</a>
+        </div>
+
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse text-right collapse" id="navbarText" style="">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutus">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#staff">Staff</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- BANNER -->
+    <div class="banner">
+      <div class="banner__par fs-1 lead text-#6610f2">
+        <p>This is the best for now until we do better.!</p>
+        <h2>Pınarbaşı Restaurant!</h2>
+        <button type="button" class="btn btn-danger">Our Services</button>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <div class="container-fluid services" id="services">
+      <div class="container title text-center">
+        <h2 class="head lead display-1">Services</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
+          doloribus.
+        </p>
+      </div>
+      <div class="row d-flex text-center mt-5">
+        <div class="col-md-4">
+          <i
+            class="fa-solid fa-taxi fa-solid fa-code bg-danger rounded-circle text-white p-5 fa-4x"
+          ></i>
+          <h3 class="mt-4">home service</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, a!
+          </p>
+        </div>
+        <div class="col-md-4">
+          <i
+            class="fa-brands fa-servicestack bg-danger rounded-circle text-white p-5 fa-4x"
+          ></i>
+          <h3 class="mt-4">self-service</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, a!
+          </p>
+        </div>
+        <div class="col-md-4">
+          <i
+            class="fa-solid fa-bell-concierge bg-danger rounded-circle text-white p-5 fa-4x"
+          ></i>
+          <h3 class="mt-4">eat on the spot</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, a!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div class="container-fluid bg-light mt-5 p-5" id="portfolio">
+      <div class="title text-center">
+        <h2 class="head lead display-1">Portfolio</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
+          doloribus.
+        </p>
+      </div>
+      <div class="row gy-4 gx-4 pt-4">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://ts2.mm.bing.net/th?q=Mara%C5%9F%20y%C3%B6resi%20i%C3%A7li%20k%C3%B6fte%20tarifi"
+              class="card-img-top"
+              alt="photo"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Maraş İçli Köfte</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://cdn.otelleri.net/landing/kahramanmaras/gezi-rehberi/acem-pilavi-3265-e3.jpg"
+              class="card-img-top"
+              alt="photo"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Saray Tabağı</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://i.hbrcdn.com/haber/2020/11/13/kahramanmaras-meshur-yemekleri-neler-13732736_9861_m.jpg"
+              class="card-img-top"
+              alt="photo"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mine special</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://www.kevserinmutfagi.com/wp-content/uploads/2020/02/saca_tava2.jpg"
+              class="card-img-top"
+              alt="photo"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Faruk special</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://i4.hurimg.com/i/hurriyet/75/750x0/5be027a967b0a926b879ef46.jpg"
+              class="card-img-top"
+              alt="photo"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Eli Böğründe</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://i.nefisyemektarifleri.com/2021/04/15/sulu-yagli-kofte-11.jpg"
+              class="card-img-top"
+              alt="photo"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Sulu Yağlı Köfte</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About us -->
+
+    <div class="container" id="aboutus">
+      <div class="title text-center">
+        <h2 class="head lead display-1">About us</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
+          doloribus.
+        </p>
+      </div>
+        <div class="par-foto d-flex mt-5">
+          <div class="par">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              dolores expedita possimus? Delectus sit ut dolor dolores corporis
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius itaque quia dolore dolor atque delectus ab fugiat a ullam fuga odio asperiores, necessitatibus iste, error nemo. Consequuntur a corporis accusantium laudantium cupiditate incidunt unde voluptas, debitis accusamus quasi, at, sit blanditiis fugit reprehenderit quia culpa nemo! Animi quam, in architecto maiores nesciunt 
+            </p>
+
+
+          </div>
+          <div class="foto ms-3">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/b5/af/b9/photo0jpg.jpg" alt="" style="width: 25rem" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Our Team -->
+    <div class="container-fluid bg-light mt-5 p-5" id="staff">
+      <div class="title text-center">
+        <h2 class="head lead display-1">Our Team</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
+          doloribus.
+        </p>
+      </div>
+      <div class="row">
+
+        <div class="col mb-2">
+          <div class="bg-light text-center" >
+                  <img style="width: 250px; height: 250px; border: 10px solid rgba(128, 128, 128, 0.606); border-radius: 50%;" src="https://www.sgkbilgi.net/wp-content/uploads/2020/06/mutfak-sefi.jpg" class="card-img-top p-1" alt="ımg">
+                  <div class="card-body text-center">
+                    <h5 class="card-title m-3">Mr. Arda</h5>
+                    <p class="card-text">barbecue chef</p>
+                    <i class="fa-brands fa-twitter bg-dark text-white rounded-4 p-2"></i>
+                    <i class="fa-brands fa-facebook bg-dark text-white rounded-4 p-2"></i>
+                    <i class="fa-brands fa-linkedin bg-dark text-white rounded-4 p-2"></i>
+                  </div>
+                </div>
+</div>
+        <div class="col mb-2">
+          <div class="bg-light text-center" >
+                  <img style="width: 250px; height: 250px; border: 10px solid rgba(128, 128, 128, 0.606); border-radius: 50%;" src="https://cdn.pixabay.com/photo/2015/10/04/17/57/service-industries-971511_960_720.jpg" class="card-img-top p-1" alt="ımg">
+                  <div class="card-body text-center">
+                    <h5 class="card-title m-3">Miss. Mine</h5>
+                    <p class="card-text">Fish BBQ Chef</p>
+                    <i class="fa-brands fa-twitter bg-dark text-white rounded-4 p-2"></i>
+                    <i class="fa-brands fa-facebook bg-dark text-white rounded-4 p-2"></i>
+                    <i class="fa-brands fa-linkedin bg-dark text-white rounded-4 p-2"></i>
+                  </div>
+                </div>
+</div>
+        <div class="col">
+          <div class="bg-light text-center" >
+                  <img style="width: 250px; height: 250px; border: 10px solid rgba(128, 128, 128, 0.606); border-radius: 50%;" src="https://cdn.pixabay.com/photo/2019/06/18/10/46/platting-4282016_960_720.jpg" class="card-img-top p-1" alt="ımg">
+                  <div class="card-body text-center">
+                    <h5 class="card-title m-3">Mr. Faruk</h5>
+                    <p class="card-text">home cooking specialist</p>
+                    <i class="fa-brands fa-twitter bg-dark text-white rounded-4 p-2"></i>
+                    <i class="fa-brands fa-facebook bg-dark text-white rounded-4 p-2"></i>
+                    <i class="fa-brands fa-linkedin bg-dark text-white rounded-4 p-2"></i>
+                  </div>
+                </div>
+</div>
+      </div>
+    </div>
+
+    <!-- Buttom Navbar -->
+    <div class="container">
+      <div class="row m-5 justify-content-center">
+        <div class="col-2">
+          <a href="#"><img  style="width: 10vh" src="https://w7.pngwing.com/pngs/854/62/png-transparent-turkish-cuisine-logo-restaurant-graphic-design-restaurant-logo-food-text-logo.png" alt=""></a>
+        </div>
+
+        <div class="col-2">
+          <a href="#"><img style="width: 10vh" src="https://e7.pngegg.com/pngimages/217/3/png-clipart-famous-restaurant-and-dancing-terrace-logo-drink-geometria-ru-others-text-logo.png" alt=""></a>
+        </div>
+
+        <div class="col-2">
+          <a href="#"><img style="width: 10vh" src="https://w7.pngwing.com/pngs/848/490/png-transparent-restaurant-logo-lunch-food-fast-food-restaurant-art.png"></a>
+        </div>
+        <div class="col-2">
+          <a href="#"><img style="width: 10vh" src="https://w7.pngwing.com/pngs/269/838/png-transparent-chef-logo-restaurant-cook-design.png"></a>
+        </div>
+        <div class="col-2">
+          <a href="#"><img style="width: 10vh" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEGY6CG3iuOMwAQXmZmnJN5t5qgx_26gigjxV_SqZShWjYS0Sz-6997sQli1EGXCvxWio&usqp=CAU"></a>
+        </div>
+      </div>
+    </div>
+    <!-- Contact us -->
+
+    <div class="contact container-fluid bg-light mt-5 p-5" id="contact">
+      <div class="title text-center">
+        <h2 class="head lead display-1">Contact us</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
+          doloribus.
+        </p>
+        <form class="d-flex justify-content-between ">
+          <div class="form__container--input w-50">
+
+            <div class="mb-3 h-25">
+            
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+            
+            </div>
+            <div class="mb-3 h-25">
+            
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+            
+            </div>
+            <div class="mb-3 h-25">
+            
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
+            
+            </div>
+          </div>
+          <div class="form__container--textaria w-50 ms-3" >
+            <div class="form-floating">
+              <textarea class="form-control h-100" placeholder="Leave a comment here" id="floatingTextarea" rows="6"></textarea>
+              <label for="floatingTextarea"></label>
+            </div>
+          </div>
+
+
+
+        </form>
+        <div class="col-md-3 mx-auto text-center mt-3">
+          <button type="button" class="btn btn-danger btn-lg">
+            Send Message
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="container text-center pb-5 pt-5 ">All Rights Reserved -Sekunev- © 2022</div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
