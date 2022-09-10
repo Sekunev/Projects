@@ -11,12 +11,6 @@
 ![image](https://user-images.githubusercontent.com/101554737/189495770-cc68684b-3fd5-46de-8d73-571defe0a4b8.png)
 ![image](https://user-images.githubusercontent.com/101554737/189495775-80e5706c-fe42-4c5f-94ef-88ca4cefde7c.png)
 
-
-
-
-
-
-
 ### Overview
 I mastered HTML, CSS and Bootstrap features in this project. You can see the visual representation of the website above.
 
