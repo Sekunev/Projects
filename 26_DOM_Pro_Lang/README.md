@@ -7,7 +7,7 @@
 
 ### Visualization of the Website
 
-![image](https://user-images.githubusercontent.com/101554737/189877602-4f455990-0bed-49eb-b547-dc4bbb787714.png)
+![image](https://user-images.githubusercontent.com/101554737/189880659-b3999df2-3946-40bd-8b8d-95eecfcbe763.png)
 
 ### Overview
 
