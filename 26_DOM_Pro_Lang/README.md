@@ -3,11 +3,12 @@
 ### Check The Live Website➡️ [Live Website](https://sekunev.github.io/Projects/26_DOM_Pro_Lang/)
 
 ### Animation of the Website
+![Programing-Language-13-September-2022 (1)](https://user-images.githubusercontent.com/101554737/189884386-2764d30d-7e44-40be-a6ad-c82ac772b1ff.gif)
 
 
 ### Visualization of the Website
 
-![image](https://user-images.githubusercontent.com/101554737/189877602-4f455990-0bed-49eb-b547-dc4bbb787714.png)
+![image](https://user-images.githubusercontent.com/101554737/189880659-b3999df2-3946-40bd-8b8d-95eecfcbe763.png)
 
 ### Overview
 
