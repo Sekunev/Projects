@@ -54,3 +54,31 @@ langInput.addEventListener("keydown", (event) => {
 window.addEventListener("load", () => {
   langInput.focus();
 });
+
+//! exam Lamba
+
+let on = document.querySelector(".btn-on");
+let off = document.querySelector(".btn-off");
+let on_off = document.querySelector(".btn-on_off");
+let yananlamb = document.querySelector(".yanan");
+let sonenlamb = document.querySelector(".sonen");
+
+off.addEventListener("click", () => {
+  yananlamb.classList.add("d-none");
+  sonenlamb.classList.remove("d-none");
+  // yananlamb.classList.toggle("d-none");
+  // sonen.classList.toggle("d-none");
+});
+on.addEventListener("click", () => {
+  yananlamb.classList.remove("d-none");
+  sonenlamb.classList.add("d-none");
+  // yananlamb.classList.toggle("d-none");
+  // sonen.classList.toggle("d-none");
+});
+on_off.addEventListener("click", () => {
+  yananlamb.classList.toggle("d-none");
+  sonenlamb.classList.toggle("d-none");
+});
+
+console.log(on);
+console.log(off);
