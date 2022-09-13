@@ -8,14 +8,14 @@
 
 ### Overview
 
-I mastered HTML and CSS features in this project. You can see the visual representation of the website above.
+I mastered HTML, DOM CSS and Boostrap features in this project. You can see the visual representation of the website above.
 
 ### Used in this project
 
-👉HTML tags, Comments, SASS, CSS styling, CSS Grid, Media Query Positioning,etc.
+👉HTML tags, Comments, SASS, CSS styling, CSS Grid, Boostrap, DOM, Media Query Positioning,etc.
 
 ### How to Use the Project
 
 - First download a code editor
-- Second open the files : [My Docs](https://github.com/Sekunev/Projects/tree/main/22_SASS_Portfolio)
+- Second open the files : [My Docs](https://github.com/Sekunev/Projects/tree/main/26_DOM_Pro_Lang)
 - You can use this tutorial : [VS Code tutorial](https://www.youtube.com/watch?v=fJEbVCrEMSE)
