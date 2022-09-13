@@ -1,4 +1,4 @@
-# SASS_Portfolio
+# DOM Programing Language
 
 ### Check The Live Website➡️ [Live Website](https://sekunev.github.io/Projects/26_DOM_Pro_Lang/)
 
