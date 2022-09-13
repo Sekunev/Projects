@@ -7,10 +7,6 @@
 ![image](https://github.com/Sekunev/Projects/blob/main/26_DOM_Pro_Lang/Programing-Language-13-September-2022.gif)
 
 
-### Visualization of the Website
-
-![image](https://user-images.githubusercontent.com/101554737/189880659-b3999df2-3946-40bd-8b8d-95eecfcbe763.png)
-
 ### Overview
 
 I mastered HTML and CSS features in this project. You can see the visual representation of the website above.
