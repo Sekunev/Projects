@@ -1,18 +1,20 @@
 # DOM Programing Language
 
-### Check The Live Website➡️ [Live Website](https://sekunev.github.io/Projects/27_DOM_Kredi/)
+### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/27_DOM_Kredi/)
 
 ### Visualization of the Website
-![image](https://user-images.githubusercontent.com/101554737/184587683-eeeb960c-d3d0-4fe7-b0db-6daea6aa3515.png)
+![image](https://user-images.githubusercontent.com/101554737/190360133-2ae635c2-fa0d-42af-bc80-567593b9fb84.png)
+
+
 
 
 ### Overview
 
-I mastered HTML and CSS features in this project. You can see the visual representation of the website above.
+I mastered HTML, CSS Boostrap, DOM features in this project. You can see the visual representation of the website above.
 
 ### Used in this project
 
-👉HTML tags, Comments, SASS, CSS styling, CSS Grid, Media Query Positioning,etc.
+👉HTML tags, Comments,Boostrap, DOM, CSS styling, CSS Grid, Media Query Positioning,etc.
 
 ### How to Use the Project
 
