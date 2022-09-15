@@ -33,7 +33,7 @@ const hesapla = () => {
     tutar.value *
     ((faizim * Math.pow(1 + faizim, vade.value)) /
       (Math.pow(1 + faizim, vade.value) - 1));
-  taksitTutari.toFixed(2);
+  taksitTutari.toFixed(2); // virgülden sonra 2 rakam oluşması için.
   document.getElementById("krediMiktari").innerText = virgul(tutar.value);
   document.getElementById("krediTipiTablo").innerText = tipi.value;
   document.getElementById("vadesi").innerText = vade.value;
@@ -45,6 +45,7 @@ const hesapla = () => {
     (taksitTutari * vade.value).toFixed(2)
   );
   document.getElementById("plan").classList.remove("d-none");
+  return taksitTutari;
 };
 
 buton.addEventListener("click", function (e) {
