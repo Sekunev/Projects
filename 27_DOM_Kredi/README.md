@@ -1,6 +1,6 @@
 # DOM Programing Language
 
-### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/27_DOM_Kredi)
+### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/27_DOM_Kredi/)
 
 ### Visualization of the Website
 ![image](https://user-images.githubusercontent.com/101554737/189959152-7d5ecbd0-54e1-4b0f-bf18-418d2178a5bd.png)
