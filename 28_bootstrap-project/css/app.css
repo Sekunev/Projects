@@ -1,0 +1,109 @@
+:root {
+  --red: #dc3545;
+}
+
+/*! -------------- 1- NAVBAR ---------------- */
+.navbar {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  color: #dc3545;
+}
+/*! ------------- 2- CAROUSEL --------------- */
+
+.carousel-item {
+  max-height: calc(100vh - 88px);
+}
+
+.carousel-item h5 {
+  color: var(--red);
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 2px black;
+}
+.carousel-item p {
+  font-weight: 600;
+  text-shadow: 2px 2px 2px black;
+}
+.carousel-item .btn {
+  width: 7rem;
+  margin-bottom: 3rem;
+}
+.carousel-indicators button {
+  background-color: var(--red) !important;
+  height: 0.4rem !important;
+  width: 3rem !important;
+  margin-right: 0.5rem !important;
+}
+
+/*! ------------ 3- ABOUT SECTION ----------- */
+
+/*! ------------- 4- INSTRUCTORS -------------*/
+#instructors .card {
+  transition: transform 0.5s;
+}
+
+#instructors .card:hover {
+  transform: scale(1.05);
+}
+#instructors .socials i {
+  transition: transform 0.5s;
+}
+#instructors .socials i:hover {
+  opacity: 0.5;
+}
+
+/*! ----------- 4- STUDENTS SECTION ----------*/
+section #student img {
+  max-width: 400px;
+  min-width: 200px;
+}
+
+/*! ----------- 5- COURSES SECTION ----------- */
+section#courses .nav-link.active {
+  background-color: var(--red);
+}
+section#courses .nav-link {
+  color: white;
+}
+
+/*! ----------- 6- CONTACT SECTION ------------ */
+
+/** -------------- UP-BUTTON ------------------ */
+
+.up-btn {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  color: white;
+  background-color: #dc3545;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+.up-btn:hover {
+  color: black;
+}
+.up-btn:hover i {
+  transform: scale(2.2);
+  font-size: 5.3rem;
+}
+
+/*! --------------- 7- FOOTER ----------------- */
+footer i {
+  font-size: 2rem;
+  color: white;
+}
+
+footer i:hover {
+  columns: var(--red);
+}
