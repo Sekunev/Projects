@@ -1,0 +1,57 @@
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2020/05/30/09/53/todo-lists-5238324_960_720.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+/* body::before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.3);
+} */
+
+.myul {
+  /* border: 2px solid red; */
+  text-align: center;
+  align-items: center;
+  /* width: 50%; */
+  margin: auto;
+  /* flex-wrap: wrap; */
+}
+.myli {
+  background-color: #fadee1;
+  list-style-type: none;
+  text-align: center;
+  align-items: center;
+  margin: 0.3rem;
+  padding: 0.3rem;
+}
+
+.fa-square {
+  cursor: pointer;
+}
+.fa-trash-can {
+  cursor: pointer;
+}
+.fa-check {
+  cursor: pointer;
+}
+.buton3 {
+  border-radius: 50%;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+
+.fa-check ~ span {
+  text-decoration: line-through;
+  color: white;
+}
+.bg {
+  background-color: red;
+  color: white;
+}

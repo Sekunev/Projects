@@ -1,0 +1,18 @@
+body {
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+  background-size: cover;
+}
+.container {
+  /* background-color: rgb(233, 233, 225); */
+  margin: 8rem auto;
+  /* background-image: url("https://media.istockphoto.com/vectors/notebook-lined-paper-background-vector-id1024036180"); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+ul {
+  padding: 1rem 1rem;
+}
+/* .spanli {
+  text-decoration: line-through;
+} */

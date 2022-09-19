@@ -1,29 +1,54 @@
+// Variables
 const input = document.querySelector(".input");
 const buton1 = document.querySelector(".buton1");
 const liste = document.querySelector(".liste");
+
+// hayalet elementler.
 const newElement = document.createElement("ul");
 const buton2 = document.querySelector(".buton2");
+const button3 = document.querySelector(".button3");
 
-console.log(liste);
+// div(.liste) içerisine çocuk olarak newelementi ekle
 liste.appendChild(newElement);
 
 function listele() {
   let listeGetir = JSON.parse(localStorage.getItem("myli"));
-  // getitem ile localdeki diziyi getirdik. myli local'de string olarak saklanır. getitem ile çekildikten sonra Parse metoduyla tekrar dizi haline getirilir. liste getir'e atanır.
+  console.log(listeGetir);
+
+  // listeGetir = ["şjşıj","asd"];
+  // getItem ile localdeki diziyi getirdik. myli local'de string olarak saklanır. getitem ile çekildikten sonra Parse metoduyla tekrar dizi haline getirilir. liste getir'e atanır.
 
   newElement.innerHTML = "";
+  // localStorage listeyi boşalttık.
 
-  // localStorage listeyi boşalttık
+  input.focus();
+  // focuslandık.
+
   // localden alınan listegetir dizisi for uygulanarak içindeki elemanlar innerHTML metoduyla li elemanları içine yerleştirilir.
 
   for (let i = 0; i < listeGetir.length; i++) {
-    newElement.innerHTML += ` <li
-  class="myli container w-50 border border-2 d-flex justify-content-between p-2">
-  ${listeGetir[i]}
-  <button id="${i}" onclick = 'elemansil("${i}")' class="buton2 border border-0 ms-5">
-    <i class="fa-solid fa-trash-can"></i>
-  </button>
-</li>`;
+    newElement.innerHTML += `<li
+    class="myli container w-75 border border-2 d-flex justify-content-between p-2"
+  >
+  <button
+      id="${i}"
+
+
+      onclick='elemanciz()'
+
+      class="buton3 border border-0"
+    >
+      <i class="fa-solid fa-circle-check"></i>
+    </button>
+    ${listeGetir[i]}
+    <button
+      id="${i}"
+      onclick='elemansil("${i}")'
+      class="buton2 border border-0"
+    >
+      <i class="fa-solid fa-trash-can"></i>
+    </button>
+  </li>`;
   }
 }
 
@@ -36,13 +61,17 @@ buton1.addEventListener("click", () => {
   const myli = document.getElementsByClassName("myli");
 
   let sonListe = JSON.parse(localStorage.getItem("myli"));
+  console.log(sonListe); // ['asdaff']
 
   if (sonListe) {
-    let yeniListe = [input.value, ...sonListe];
+    let yeniListe = [input.value, ...sonListe]; // sonListe'ye rest metodu uygulandı ve böylece son girilen ve öncekiler tek liste halinde yeniListe'de birleşti.
+    console.log(yeniListe); //['sdaed', 'asdaff']
+
     localStorage.setItem("myli", JSON.stringify(yeniListe));
     // localStorage'da sadece str saklandığı için str'ye çevrildi.
   } else {
     let yeniListe = [input.value];
+    console.log(yeniListe);
     localStorage.setItem("myli", JSON.stringify(yeniListe));
   }
   listele();
@@ -61,7 +90,12 @@ window.onload = function () {
 
 function elemansil(id) {
   let listeGetir = JSON.parse(localStorage.getItem("myli"));
-  listeGetir.splice(id, 1);
+  console.log(listeGetir);
+  listeGetir.splice(id, 1); // splice ile 1. parametre (id)silmeye nerden başlanacağı, ikinci parametre kaç eleman silineceğini ifade eder.
+
   localStorage.setItem("myli", JSON.stringify(listeGetir));
-  listele();
+  listele(); // localStorage'e setitem ile key'i myli , value'si JSON.stringify(listeGetir) olan elemanı ekledik.
+}
+function elemanciz() {
+  document.querySelector(".myli").classList.toggle("checked");
 }

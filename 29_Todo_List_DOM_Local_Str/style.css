@@ -1,0 +1,22 @@
+.myli {
+  list-style-type: none;
+  width: 40rem;
+  background-color: aqua;
+  margin-top: 1rem;
+}
+.buton2 {
+  border-radius: 50%;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+.buton3 {
+  border-radius: 50%;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+ul {
+  border: 2px solid red;
+}
+.checked {
+  text-decoration: line-through;
+}
