@@ -1,6 +1,6 @@
-# Checkout-form (CSS Grid, Flex, Position)
+# Checkout-form (Javascript , DOM, CSS Grid, Flex, Position )
 
-### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/20_Checkout-form/)
+### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/32_Checkout-form_DOM/)
 
 
 ### Visualization of the Website
