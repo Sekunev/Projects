@@ -2,6 +2,12 @@
   font-family: Mon;
   src: url("FONTS/Montserrat-Regular.ttf");
 }
+button {
+  cursor: pointer;
+}
+body {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
 
 main {
   position: relative;
@@ -11,7 +17,7 @@ main {
   /* main genişliği %70 olduğu için -50 transX 35 lik kayma oluşturuyor.  */
   margin: 35px 0;
   display: grid;
-  grid-template-columns: 465px 320px;
+  grid-template-columns: 50% 50%;
   /* grid yöntemiyle maini 2 stuna böldük. */
 }
 #checkout-title {
@@ -20,6 +26,7 @@ main {
   margin: 15px 0;
 }
 main form {
+  /* display: none; */
   margin-right: 150px;
   position: relative;
   width: 80%;
@@ -28,6 +35,7 @@ main form {
   font-family: Mon;
   position: relative;
   display: block;
+  margin-bottom: 50px;
 }
 .data-form h1 {
   font-size: 18px;
@@ -93,15 +101,19 @@ main form {
   width: 20%;
   padding: 14px 0;
   border-radius: 10px;
-  background-color: #f2994a;
+  background-color: #e6530ffd;
   color: #fff;
   font-weight: 600;
   text-align: center;
   border: none;
   position: absolute;
   right: 0;
-  margin-right: -100px;
+  margin-right: 140px;
   /* form'un genişliğine göre sağa yaslayınca ortalamadığı için -100 sağa kaydırdık. */
+  transition: all 0.3s;
+}
+#btn-submit:hover {
+  transform: scale(105%);
 }
 #products-preview {
   position: relative;
@@ -109,11 +121,14 @@ main form {
 #product-painel {
   /* position: absolute; */
   width: 100%;
+
   border-radius: 10px;
   background-color: #eeeeee;
-  padding: 10px 20px;
+  padding: 10px 15px;
   /* display: flex;
   flex-wrap: wrap; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 #product-painel .product {
   /* position: relative; */
@@ -122,9 +137,15 @@ main form {
   margin: 10px 0;
 }
 .product img {
-  width: 30%;
+  width: 35%;
+
   border-radius: 10px;
   margin-right: 20px;
+  transition: all 0.5s;
+}
+.product img:hover {
+  /* transform: rotate(-90deg); */
+  transform: scale(110%);
 }
 .product-info {
   font-family: Mon, Arial, Helvetica, sans-serif;
@@ -169,11 +190,20 @@ p {
   padding: 5px;
   text-align: center;
 }
+.product-info > button {
+  margin: 5px 0;
+  border: 0;
+  background-color: #b11919;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: #eeeeee;
+}
 .quantity-controller button i {
   font-size: 12px;
 }
 .buy-detail {
-  margin: 5px 0;
+  margin: 1px 0;
   border-top: 1px solid #bdbdbd;
   display: flex;
   position: relative;
@@ -184,30 +214,29 @@ p {
   display: block;
   width: 50%;
 }
-/* .buy-detail p:nth-child(2) {
-  text-align: right;
-
-} */
-/* yukardaki ile aşağıdaki aynı işi yapıyor. */
-.asd {
+.buy-detail p:nth-child(2) {
   text-align: right;
 }
+/* yukardaki ile aşağıdaki aynı işi yapıyor. */
+/* .asd {
+  text-align: right;
+} */
 #shipping {
-  margin-top: 50px;
+  /* margin-top: 10px; */
 }
 .line-through {
   text-decoration: line-through;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 820px) {
   main {
     grid-template-columns: 100%;
     width: 90%;
-    grid-template-rows: 400px 1fr;
+    grid-template-rows: 780px 1fr;
     grid-template-areas: "top" "bottom";
   }
   main form {
-    width: 85% !important;
+    width: 90% !important;
     left: 0;
     transform: unset;
     margin-right: 0 !important;
@@ -225,7 +254,7 @@ p {
   #btn-submit {
     width: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-45%);
   }
   #postal-code-field {
     width: 100%;
@@ -236,5 +265,8 @@ p {
   .buy-detail {
     left: 50%;
     transform: translateX(-50%);
+  }
+  .product-info h2 {
+    font-size: 0.9rem;
   }
 }

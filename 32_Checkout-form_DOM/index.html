@@ -128,60 +128,112 @@
         </div>
         <button id="btn-submit" type="submit">Continue</button>
       </form>
-
+      <!-- ***** Right ***** -->
       <div id="products-preview">
         <div id="product-painel">
           <div class="product">
-            <img src="IMG/photo1.png" alt="" />
+            <img
+              src="https://cdn.pixabay.com/photo/2016/10/22/17/10/bread-1761197_960_720.jpg"
+              alt=""
+            />
             <div class="product-info">
-              <h2>Vintage Backbag</h2>
-              <p>
-                <strong>$44.99</strong> <span class="line-through">$94.99</span>
-              </p>
+              <div>
+                <h2>White bread</h2>
+                <p>
+                  $<strong id="unit-price">5.00</strong>
+                  <span class="line-through">$7.00</span>
+                </p>
+              </div>
 
               <div class="quantity-controller">
-                <button>
+                <button id="btnminus">
                   <i class="fas fa-minus" aria-hidden="true"></i>
                 </button>
-                <p>1</p>
-                <button>
+                <p>0</p>
+                <button id="btnplus">
                   <i class="fas fa-plus" aria-hidden="true"></i>
                 </button>
               </div>
+              <button id="btnrmv">remove</button>
+              <p>Product Total $<span id="protot">0.00</span></p>
             </div>
           </div>
 
           <div class="product">
-            <img src="IMG/photo2.png" alt="" />
+            <img
+              src="https://cdn.pixabay.com/photo/2016/03/26/18/23/bread-1281053_960_720.jpg"
+              alt=""
+            />
             <div class="product-info">
-              <h2>Levi Shoes</h2>
-              <p>
-                <strong>$54.99</strong>
-                <span class="line-through">$124.99</span>
-              </p>
+              <div>
+                <h2>Brown Bread</h2>
+                <p>
+                  $<strong id="unit-price">10.00</strong>
+                  <span class="line-through">$12.00</span>
+                </p>
+              </div>
 
               <div class="quantity-controller">
-                <button>
+                <button id="btnminus">
                   <i class="fas fa-minus" aria-hidden="true"></i>
                 </button>
-                <p>1</p>
-                <button>
+                <p>0</p>
+                <button id="btnplus">
                   <i class="fas fa-plus" aria-hidden="true"></i>
                 </button>
               </div>
+              <button id="btnrmv">remove</button>
+              <p>Product Total $<span id="protot">0.00</span></p>
             </div>
           </div>
 
-          <div class="buy-detail" id="shipping">
-            <p>Shipping</p>
-            <p class="asd">$19</p>
+          <div class="product">
+            <img
+              src="https://cdn.pixabay.com/photo/2019/05/06/14/24/bread-4183225_960_720.jpg"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <h2>Sourdough Country Bread</h2>
+                <p>
+                  $<strong id="unit-price">15.00</strong>
+                  <span class="line-through">$20.00</span>
+                </p>
+              </div>
+
+              <div class="quantity-controller">
+                <button id="btnminus">
+                  <i class="fas fa-minus" aria-hidden="true"></i>
+                </button>
+                <p>0</p>
+                <button id="btnplus">
+                  <i class="fas fa-plus" aria-hidden="true"></i>
+                </button>
+              </div>
+              <button id="btnrmv">remove</button>
+              <p>Product Total $<span id="protot">0.00</span></p>
+            </div>
           </div>
-          <div class="buy-detail" id="total">
+
+          <div class="buy-detail">
+            <p>Subtotal</p>
+            <p id="subtotal">$0.0</p>
+          </div>
+          <div class="buy-detail">
+            <p>Tax (%18)</p>
+            <p id="tax">$0.0</p>
+          </div>
+          <div class="buy-detail">
+            <p>Shipping</p>
+            <p id="shipping">$0.0</p>
+          </div>
+          <div class="buy-detail">
             <p>Total</p>
-            <p class="asd">$148.98</p>
+            <p id="total">$0.0</p>
           </div>
         </div>
       </div>
     </main>
+    <script src="./check.js"></script>
   </body>
 </html>
