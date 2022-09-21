@@ -17,12 +17,12 @@ function shipCount(sum) {
         401- 600         39
         601          kargo bedava
     */
-  if (sum > 0 && sum < 200) {
-    return 19.0;
-  } else if (sum >= 200 && sum < 401) {
-    return 29.0;
-  } else if (sum >= 400 && sum < 601) {
-    return 39.0;
+  if (sum > 0 && sum < 20) {
+    return 2.0;
+  } else if (sum >= 21 && sum < 40) {
+    return 3.0;
+  } else if (sum >= 40 && sum < 60) {
+    return 4.0;
   } else {
     return 0.0;
   }
