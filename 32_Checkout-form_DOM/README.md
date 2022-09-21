@@ -4,7 +4,7 @@
 
 
 ### Animation of the Website
-![image]https://github.com/Sekunev/Projects/blob/main/32_Checkout-form_DOM/Checkout-Form-21-September-2022.gif
+![image](https://github.com/Sekunev/Projects/blob/main/32_Checkout-form_DOM/Checkout-Form-21-September-2022.gif)
 
 ### Visualization of the Website
 ![image](https://user-images.githubusercontent.com/101554737/191563213-141882e2-b921-43e8-97a5-3d876933259c.png)
