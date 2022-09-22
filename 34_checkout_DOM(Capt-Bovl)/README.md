@@ -3,7 +3,7 @@
 ### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/34_checkout_DOM(Capt-Bovl))
 
 ### Visualization of the Website
-s
+![image](https://user-images.githubusercontent.com/101554737/191733652-a98dbe38-cf14-4177-83c1-da26eb5b1545.png)
 
 
 
