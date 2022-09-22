@@ -1,6 +1,6 @@
 # DOM checkout(Capt-Bovl) (Local Storage)
 
-### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/34_checkout_DOM(Capt-Bovl))
+### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/34_checkout_DOM(Capt-Bovl)/)
 
 ### Visualization of the Website
 s
