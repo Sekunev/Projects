@@ -19,7 +19,7 @@ function shipCount(sum) {
     */
   if (sum > 0 && sum < 20) {
     return 2.0;
-  } else if (sum >= 21 && sum < 40) {
+  } else if (sum >= 20 && sum < 40) {
     return 3.0;
   } else if (sum >= 40 && sum < 60) {
     return 4.0;
