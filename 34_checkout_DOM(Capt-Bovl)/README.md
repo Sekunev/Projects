@@ -1,9 +1,9 @@
-# DOM Todo (Local Storage)
+# DOM checkout(Capt-Bovl) (Local Storage)
 
-### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/33_todo_solotion/)
+### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/34_checkout_DOM(Capt-Bovl)/)
 
 ### Visualization of the Website
-![image](https://user-images.githubusercontent.com/101554737/191606356-8af8b0d8-e925-4d73-bd08-02dddb653f4f.png)
+s
 
 
 
@@ -19,5 +19,5 @@ I mastered Javascript, HTML, CSS Boostrap, DOM features in this project. You can
 ### How to Use the Project
 
 - First download a code editor
-- Second open the files : [My Docs](https://github.com/Sekunev/Projects/tree/main/33_todo_solotion)
+- Second open the files : [My Docs](https://github.com/Sekunev/Projects/tree/main/34_checkout_DOM(Capt-Bovl))
 - You can use this tutorial : [VS Code tutorial](https://www.youtube.com/watch?v=fJEbVCrEMSE)
