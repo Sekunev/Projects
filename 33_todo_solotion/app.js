@@ -143,16 +143,31 @@ todoUl.addEventListener("click", (e) => {
 
     // todo 7-2
 
-    //? yukarda else if bloğunda DOM'daki e.target.parentElement (li)'ye toggle ile checked clasını vererek kırmızı veya yeşil olmasını sağladık. aynı şeyin LS de de yapmamız derekli. aşağıda da bunu yaptık.
+    //? yukarda else if bloğunda DOM'daki e.target.parentElement (li)'ye toggle ile checked clasını vererek kırmızı veya yeşil olmasını sağladık. aynı şeyin LS de de yapmamız gerekli. aşağıda da bunu yaptık.
 
-    let todosChecked = todos.filter((todo) => todo.id === Number(id));
-    if (todosChecked[0].completed == true) {
-      todosChecked[0]["completed"] = false;
-    } else {
-      todosChecked[0]["completed"] = true;
-    }
+    // let todosChecked = todos.filter((todo) => todo.id === Number(id));
+    // if (todosChecked[0].completed == true) {
+    //   todosChecked[0]["completed"] = false;
+    // } else {
+    //   todosChecked[0]["completed"] = true;
+    // }
 
-    // todosChecked[0]["completed"]
+    // LS Checked Alternatif çözüm.
+
+    let todosChecked = e.target;
+    // let myId = todosChecked.parentElement.id;
+    let myId = todosChecked.parentElement.getAttribute("id");
+    todos.forEach((todo) => {
+      if (todo.id == myId) {
+        if (todosChecked.parentElement.classList.contains("checked")) {
+          todo.completed = true;
+        } else {
+          todo.completed = false;
+        }
+      }
+    });
+    console.log(todosChecked.parentElement);
+    console.log(myId);
 
     console.log(todos);
     console.log(todosChecked);
