@@ -1,20 +1,20 @@
-// const taxRate = 0.18;
-// const shippingPrice = 15;
-// const shippingFreePrice = 300;
+const taxRate = 0.18;
+const shippingPrice = 15;
+const shippingFreePrice = 300;
 
 // sayfa yüklendiğinde yukardaki değişkenleri LS' e kaydedelim.
 window.addEventListener("load", () => {
   calculateCartPrice(); // calculateCartPrice en son ekledik.
   //set items to LocalStorage
   calculateCartPrice;
-  // localStorage.setItem("taxRate", taxRate);
-  // localStorage.setItem("shippingPrice", shippingPrice);
-  // localStorage.setItem("shippingFreePrice", shippingFreePrice);
+  localStorage.setItem("taxRate", taxRate);
+  localStorage.setItem("shippingPrice", shippingPrice);
+  localStorage.setItem("shippingFreePrice", shippingFreePrice);
 
   //set items to sessionStorage
-  // sessionStorage.setItem("taxRate", taxRate);
-  // sessionStorage.setItem("shippingPrice", shippingPrice);
-  // sessionStorage.setItem("shippingFreePrice", shippingFreePrice);
+  sessionStorage.setItem("taxRate", taxRate);
+  sessionStorage.setItem("shippingPrice", shippingPrice);
+  sessionStorage.setItem("shippingFreePrice", shippingFreePrice);
 });
 
 // Capturing yapacağımız en yakın statik elemanı seçelim.(products)
