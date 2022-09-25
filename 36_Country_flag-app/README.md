@@ -3,7 +3,7 @@
 ### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/36_Country_flag-app)
 
 ### Animation of the Website
-
+![image](https://github.com/Sekunev/Projects/blob/main/36_Country_flag-app/JS19-Flag-APP-25-September-2022.gif)
 
 ### Visualization of the Website
 ![image](https://user-images.githubusercontent.com/101554737/187170205-73afa1e1-36e7-492d-b57d-b28a0b640ebf.png)
