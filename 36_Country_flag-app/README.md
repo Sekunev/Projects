@@ -1,6 +1,8 @@
 # İOS Calculator (CSS Grid)
 
-### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/36_Country_flag-app/)
+### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/36_Country_flag-app)
+
+### Animation of the Website
 
 
 ### Visualization of the Website
