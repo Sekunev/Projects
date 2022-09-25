@@ -1,6 +1,6 @@
 # Country-Flag  (Async-await)
 
-### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/36_Country_flag-app)
+### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/36_Country_flag-app/)
 
 ### Animation of the Website
 ![image](https://github.com/Sekunev/Projects/blob/main/36_Country_flag-app/JS19-Flag-APP-25-September-2022.gif)
