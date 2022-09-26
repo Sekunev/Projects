@@ -6,7 +6,7 @@
 ![image](https://github.com/Sekunev/Projects/blob/main/36_Country_flag-app/JS19-Flag-APP-25-September-2022.gif)
 
 ### Visualization of the Website
-![image](https://user-images.githubusercontent.com/101554737/187170205-73afa1e1-36e7-492d-b57d-b28a0b640ebf.png)
+![image](https://user-images.githubusercontent.com/101554737/192247504-06ee70f3-a4c6-44e8-a5b5-61f83d35c071.png)
 
 
 ### Overview
