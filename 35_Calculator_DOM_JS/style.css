@@ -46,7 +46,7 @@
   width: 21.5rem;
   height: 10rem;
   grid-column: 1 / span 4;
-  border: 0.3px solid #615f5c;
+  /* border: 0.3px solid #615f5c; */
   border-radius: 40px;
   margin: 0.5rem auto;
   /* display: flex; */
@@ -59,16 +59,16 @@
   /* opacity: 0.4; */
 }
 #ekran-ust {
-  font-size: 4rem;
+  font-size: 2rem;
   opacity: 0.8;
-  border: 0.3px solid #eb1010;
-  height: 4rem;
+  /* border: 0.3px solid #eb1010; */
+  height: 3rem;
 }
 #ekran-alt {
-  font-size: 2rem;
+  font-size: 4rem;
   margin-top: 1rem;
-  border: 0.3px solid #e0d6d6;
-  height: 3rem;
+  /* border: 0.3px solid #e0d6d6; */
+  height: 4rem;
 }
 .islem {
   background-color: #f1a33c;
@@ -78,5 +78,8 @@
   color: black;
 }
 .rakam {
+  background-color: #333333;
+}
+.esit {
   background-color: #333333;
 }

@@ -2,11 +2,67 @@
 //*                     FLAG-APP
 //*=========================================================
 const select = document.getElementById("select")
+
+// fetch yöntemi ile;
+
+const fetchCountryByAllName = async () => {
+  const url = "https://restcountries.com/v3.1/all";
+  fetch(url)
+    .then((res) => {
+      if (!res.ok) {
+        renderError(`Something went wrong: ${res.status}`);
+        throw new Error();
+      }
+      return res.json();
+    })
+    .then((data) => renderNames(data))
+    .catch((err) => console.log(err));
+};
+
+
+//? async-await yöntemi ile;
+// const fetchCountryByAllName = async () => {
+//   const url ="https://restcountries.com/v3.1/all"
+//   try {
+//     const res = await fetch(url);
+//     if (!res.ok) {
+//       isError = true;
+//     }
+//     const data = await res.json();
+//     renderNames(data);
+//   } catch (error) {
+//     console.log(error)
+//   }
+// }
+
+let isError = false;
+const renderNames = (data)=> {
+  const select = document.getElementById("select");
+  if(isError) {
+    document.querySelector("body") += `
+      <h2>News Can not be fetched</h2>
+      <img src="./img/404.png" alt="" />
+    `;
+    return;
+  }
+  let names = data.map((data) => data.name.common).sort();
+  names.forEach((item)=> {
+    
+    select.innerHTML += `
+    <option value="${item}">${item}</option>
+    `;
+
+  })
+  console.log(data)
+
+}
+
 select.addEventListener("change",(e)=> {
 
   console.log( e.target.value)
   fetchCountryByName(e.target.value)
 })
+
 
 
 const fetchCountryByName = (name) => {
@@ -78,59 +134,7 @@ const renderCountries = (data) => {
 
 
 
-// fetch yöntemi ile;
 
-let isError = false;
-const fetchCountryByAllName = async () => {
-  const url = "https://restcountries.com/v3.1/all";
-  fetch(url)
-    .then((res) => {
-      if (!res.ok) {
-        renderError(`Something went wrong: ${res.status}`);
-        throw new Error();
-      }
-      return res.json();
-    })
-    .then((data) => renderNames(data))
-    .catch((err) => console.log(err));
-};
-
-
-// async-await yöntemi ile;
-// const fetchCountryByAllName = async () => {
-//   const url ="https://restcountries.com/v3.1/all"
-//   try {
-//     const res = await fetch(url);
-//     if (!res.ok) {
-//       isError = true;
-//     }
-//     const data = await res.json();
-//     renderNames(data);
-//   } catch (error) {
-//     console.log(error)
-//   }
-// }
-
-
-const renderNames = (data)=> {
-  const select = document.getElementById("select");
-  if(isError) {
-    document.querySelector("body") += `
-      <h2>News Can not be fetched</h2>
-      <img src="./img/404.png" alt="" />
-    `;
-    return;
-  }
-  data.forEach((item)=> {
-    
-    select.innerHTML += `
-    <option value="${item.name.common}">${item.name.common}</option>
-    `;
-  })
-  console.log(data)
-
-}
 
 fetchCountryByName("turkey");
 fetchCountryByAllName()
-
