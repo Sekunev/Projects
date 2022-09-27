@@ -29,10 +29,11 @@
   line-height: 78px;
 }
 .content:hover {
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 .content:active {
-  transform: scale(94%);
+  transform: scale(90%);
+  opacity: 0.5;
 }
 .sifir {
   border-radius: 50px;
@@ -69,6 +70,8 @@
   margin-top: 1rem;
   /* border: 0.3px solid #e0d6d6; */
   height: 4rem;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 .islem {
   background-color: #f1a33c;

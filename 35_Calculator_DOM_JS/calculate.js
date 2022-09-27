@@ -3,23 +3,27 @@ const container = document.querySelector(".container");
 let ekran_ust = document.querySelector("#ekran-ust");
 let ekran_alt = document.querySelector("#ekran-alt");
 let esittir = document.querySelector(".esit");
-console.log(esittir);
-
-// console.log(ekran_ust);
+// console.log(esittir);
 
 let num1 = "";
 let num2 = "";
 let operator = "";
-// ekran_ust.innerText = 4;
-// ekran_alt.innerText = 2;
 
+let sayac = 0;
 container.addEventListener("click", (event) => {
   if (event.target.classList.contains("rakam")) {
-    num2 += event.target.innerText;
-    ekran_alt.innerText = num2;
+    sayac++;
+    if (sayac < 10) {
+      num2 += event.target.innerText;
+    } else {
+      alert("Maximum of 9 characters must be entered");
+    }
+
+    ekran_alt.innerText = num2.slice(0, 10);
   } else if (event.target.classList.contains("ac-plus")) {
     reset();
   } else if (event.target.classList.contains("islem")) {
+    sayac = 0;
     if (num1) {
       if (!num2) {
         alert("Enter a number!");
@@ -29,7 +33,7 @@ container.addEventListener("click", (event) => {
           num1 = num1.toFixed(6);
         }
         operator = event.target.innerText;
-        ekran_ust.innerText = num1 + " " + operator;
+        ekran_ust.innerText = (num1 + " " + operator).slice(0, 9);
         ekran_alt.innerText = "";
         num2 = "";
       }
@@ -38,7 +42,7 @@ container.addEventListener("click", (event) => {
       num1 = num2;
       num2 = "";
       operator = event.target.innerText;
-      ekran_ust.innerText = num1 + " " + operator;
+      ekran_ust.innerText = (num1 + " " + operator).slice(0, 9);
       ekran_alt.innerText = "";
     }
   } else if (event.target.classList.contains("esit")) {
@@ -47,8 +51,12 @@ container.addEventListener("click", (event) => {
     if (String(num2).length > 6) {
       num2 = num2.toFixed(6);
     }
-    console.log(event.target);
-    ekran_alt.innerText = num2;
+
+    if (String(num2).length < 10) {
+      ekran_alt.innerText = num2;
+    } else {
+      ekran_alt.innerText = num2.slice(0, 9);
+    }
     ekran_ust.innerText = "";
     num1 = "";
     num2 = "";
@@ -87,6 +95,5 @@ function reset() {
   operator = "";
   ekran_alt.innerText = "";
   ekran_ust.innerText = "";
+  sayac = 0;
 }
-
-console.log(typeof hesapla(3, "+", 4));

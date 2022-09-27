@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://iconape.com/wp-content/png_logo_vector/aa-2.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather-App</title>
+  </head>
+  <body>
+    <div class="golge">
+      <h1 class="text-center p-3">Weather App</h1>
+      <div class="input-group mb-5 mx-auto mt-3 justify-content-center">
+        <input
+          type="text"
+          class="input"
+          placeholder="Enter City"
+          aria-label="Recipient's username"
+          aria-describedby="button-addon2"
+        />
+        <button
+          class="btn btn-outline-danger text-light"
+          type="button"
+          id="button-addon2"
+        >
+          Submit
+        </button>
+      </div>
+      <div class="newsList text-center"></div>
+      <div
+        class="container row gap-3 text-center m-auto justify-content-center"
+      >
+        <!-- <div class="card col-sm-6 col-md-4 col-lg-3" style="width: 15rem">
+          <p class="list-group-item">${name.replace("Province", "")}</p>
+          <p class="list-group-item">${Math.round(main.temp)}°C</p>
+          <img src="http://openweathermap.org/img/w/${
+            weather[0].icon
+          }.png" class="card-img-top" alt="icon" />
+          <p class="list-group-item fw-normal">${weather[0].description.toUpperCase()}</p>
+          <p class="list-group-item temp_min-max">${Math.round(
+            main.temp_min
+          )} / ${Math.round(main.temp_max)}°C</p>
+          <button class="btn remove" type="button">Remove</button>
+      </div> -->
+      </div>
+    </div>
+
+    <script src="./weather.js"></script>
+  </body>
+</html>

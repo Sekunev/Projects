@@ -100,9 +100,9 @@ const renderCountries = (data) => {
     maps:{googleMaps}
   } = data[0];
 
-  console.log(Object.values(languages));
-  console.log(Object.values(currencies)[0].name);
-  console.log(Object.values(currencies)[0].symbol);
+  // console.log(Object.values(languages));
+  // console.log(Object.values(currencies)[0].name);
+  // console.log(Object.values(currencies)[0].symbol);
 
   countryDiv.innerHTML = `
     <div class="card mx-auto m-3 shadow-lg" style="width: 18rem;">
@@ -131,10 +131,6 @@ const renderCountries = (data) => {
 
   `;
 };
-
-
-
-
 
 fetchCountryByName("turkey");
 fetchCountryByAllName()

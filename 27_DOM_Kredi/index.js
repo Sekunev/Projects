@@ -21,7 +21,7 @@ const faiz = () => {
   return faizOrani;
 };
 
-// 3 rakamda bir virgül için virgül fonksiyonu.
+// 3 rakamda bir virgül için virgül fonksiyonu.(felix hoca)
 function virgul(x) {
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }

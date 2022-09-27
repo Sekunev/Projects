@@ -1,0 +1,86 @@
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2018/05/02/18/23/landscape-3369304_960_720.jpg);
+  /* background-color: antiquewhite; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  height: 100vh;
+}
+.golge {
+  background-color: rgba(0, 0, 0, 0.342);
+  height: 100vh;
+}
+.input {
+  /* outline: none; */
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(201, 6, 38);
+  outline: none;
+  /* color: white; */
+  width: 25%;
+}
+input::placeholder {
+  color: rgb(39, 37, 37);
+}
+.card {
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: rgba(145, 99, 39, 0.301);
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 19px 38px, rgba(0, 0, 0, 0.1) 0px 15px 12px;
+  transition: all, 0.3s;
+  border-radius: 10px;
+  /* height: 80px; */
+}
+.card:hover {
+  transform: scale(105%);
+}
+
+p:nth-child(2) {
+  font-size: 1.2rem;
+  /* border: 1px solid rgb(221, 105, 105); */
+  width: 20%;
+  margin: auto;
+  /* background-color: rgb(221, 105, 105); */
+  padding: auto;
+}
+.remove {
+  border-radius: 15px;
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 1.5rem;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
+  /* transition: all, 0.3s; */
+}
+
+.btn {
+  background-color: rgb(221, 105, 105);
+}
+.btn:hover {
+  background-color: rgb(219, 84, 84);
+  color: white;
+}
+.temp_min-max {
+  font-size: 1.5rem;
+}
+
+.Clouds {
+  background-image: url(https://cdn.pixabay.com/photo/2013/07/13/12/11/sun-159378_960_720.png);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(250, 235, 215, 0.582);
+}
+.Clear {
+  background-image: url(https://cdn.pixabay.com/photo/2013/07/13/12/12/sun-159392_960_720.png);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(223, 238, 15, 0.055);
+}
+.Rain {
+  background-image: url(https://cdn.pixabay.com/photo/2013/07/12/15/03/clouds-149344_960_720.png);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(198, 199, 189, 0.829);
+}
