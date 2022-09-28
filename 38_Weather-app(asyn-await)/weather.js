@@ -51,6 +51,7 @@ const renderWeather = (item) => {
     coord: { lon, lat },
   } = item;
   console.log(item);
+  console.log(lon, lat);
 
   weatherListDiv.innerHTML += `    
   <div class="card col-sm-6 col-md-4 col-lg-3" style="width: 10rem">
@@ -66,17 +67,29 @@ const renderWeather = (item) => {
         )} / ${Math.round(main.temp_max)}°C</p>
         <p class="list-group-item temp_min-max">${Math.round(wind.speed)}m/s</p>
         <button class="btn remove" type="button">Remove</button>
-        <a href="https://www.google.com/maps/embed/v1/view?key=AIzaSyBKWycHdEHVh5bzIjJqy0uqDdX153Cubr8
-        &center=${lat},${lon}
-        &zoom=7
-        &maptype=satellite" target="_blank" class="card-link btn btn-secondary">Google Maps</a>
-
-
-
-
+        <a href="https://www.google.com/maps/@${lat},${lon}" target="_blank" class="card-link btn btn-secondary">Google Maps</a>
 
     </div>
     `;
+
+  // <iframe
+  //   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21056.191434502838!2d38.268875750614754!3d38.3253310096398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1664346381462!5m2!1str!2str"
+  //   width="600"
+  //   height="450"
+  //   style="border:0;"
+  //   allowfullscreen=""
+  //   loading="lazy"
+  //   referrerpolicy="no-referrer-when-downgrade"
+  // ></iframe>;
+
+  // let map;
+  // function initMap() {
+  //   map = new google.maps.Map(document.getElementById("map"), {
+  //     center: { lat: -34.397, lng: 150.644 },
+  //     zoom: 8,
+  //   });
+  // }
+  // window.initMap = initMap;
 
   console.log(item);
   console.log(weather);

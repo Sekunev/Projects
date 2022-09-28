@@ -12,11 +12,17 @@ let operator = "";
 let sayac = 0;
 container.addEventListener("click", (event) => {
   if (event.target.classList.contains("rakam")) {
-    sayac++;
-    if (sayac < 10) {
-      num2 += event.target.innerText;
+    //ekranda birden fazla "0 olmasın."
+    if (event.target.classList.contains("sifir")) {
+      num2 = event.target.innerText;
     } else {
-      alert("Maximum of 9 characters must be entered");
+      sayac++;
+      // ekranda max 9 karakter olması için
+      if (sayac < 10) {
+        num2 += event.target.innerText;
+      } else {
+        alert("Maximum of 9 characters must be entered");
+      }
     }
 
     ekran_alt.innerText = num2.slice(0, 10);
