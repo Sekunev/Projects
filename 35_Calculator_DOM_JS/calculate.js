@@ -13,16 +13,13 @@ let sayac = 0;
 container.addEventListener("click", (event) => {
   if (event.target.classList.contains("rakam")) {
     //ekranda birden fazla "0 olmasın."
-    if (event.target.classList.contains("sifir")) {
-      num2 = event.target.innerText;
+
+    sayac++;
+    // ekranda max 9 karakter olması için
+    if (sayac < 10) {
+      num2 += event.target.innerText;
     } else {
-      sayac++;
-      // ekranda max 9 karakter olması için
-      if (sayac < 10) {
-        num2 += event.target.innerText;
-      } else {
-        alert("Maximum of 9 characters must be entered");
-      }
+      alert("Maximum of 9 characters must be entered");
     }
 
     ekran_alt.innerText = num2.slice(0, 10);
@@ -72,10 +69,6 @@ container.addEventListener("click", (event) => {
     num2 *= -1;
     ekran_alt.innerText = num2;
   }
-  if (event.target.classList.contains("yuzde")) {
-    num2 /= 100;
-    ekran_ust.innerText = num2;
-  }
 });
 
 //! functions
@@ -85,6 +78,7 @@ function hesapla(n1, oper, n2) {
   if (oper === "+") return n1 + n2;
   else if (oper === "-") return n1 - n2;
   else if (oper === "x") return n1 * n2;
+  else if (oper === "%") return (n1 * n2) / 100;
   else if (oper === "÷") {
     if (!n2) {
       return "Error";
@@ -93,6 +87,8 @@ function hesapla(n1, oper, n2) {
     }
   }
 }
+
+console.log(hesapla(20, "%", 5));
 
 //? Reset
 function reset() {

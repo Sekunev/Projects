@@ -25,7 +25,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
+  /* cursor: pointer; */
   line-height: 78px;
 }
 .content:hover {
