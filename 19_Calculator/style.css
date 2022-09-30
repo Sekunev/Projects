@@ -25,14 +25,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* cursor: pointer; */
+  cursor: pointer;
   line-height: 78px;
 }
 .content:hover {
   opacity: 0.5;
 }
 .content:active {
-  transform: scale(94%);
+  /* transform: scale(94%); */
 }
 .rakam0 {
   border-radius: 50px;
