@@ -8,7 +8,7 @@
 
 
 ### Overview
-I mastered HTML,  CSS and Boostrap features in this project. You can see the visual representation of the website above.
+I mastered HTML,  CSS and Boostrap features in this project. You can see the visual representation of the website above
 
 ### Used in this project
 👉HTML tags, Comments, CSS styling, Positioning,etc.
