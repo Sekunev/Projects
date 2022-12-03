@@ -1,4 +1,4 @@
-# İOS Calculator (CSS Grid)
+# Analog Saat
 
 ### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/37_Analog_Saat/)
 
